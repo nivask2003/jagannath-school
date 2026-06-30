@@ -26,3 +26,24 @@ document.querySelectorAll('.acc-item').forEach(el => {
 	}
   };
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const firstItem = document.querySelector(".acc-item");
+
+    if (firstItem) {
+        const wrapper = firstItem.querySelector(".content-wrapper");
+
+        firstItem.open = true;
+        firstItem.classList.add("is-open");
+        wrapper.style.height =
+            wrapper.querySelector(".content-body").scrollHeight + "px";
+    }
+});
+
+
+AOS.init({
+    duration: 1000,
+    once: true,
+    offset: 100,
+    easing: "ease-in-out"
+});
