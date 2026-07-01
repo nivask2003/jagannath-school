@@ -42,6 +42,19 @@ span.badge {
     flex-direction: column;
 }
 
+.page-banner{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+}
+
+.page-banner .page-title{
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+}
+
 
 header .top-header {
     background-color: #05519F;
@@ -623,6 +636,13 @@ footer .footer-bottom br {
     display: none;
 }
 
+.home-7{
+    display: none;
+}
+#home .home-7{
+    display: block;
+}
+
 /* =====================================================
    RESPONSIVE STYLES
    Desktop (>=1200px) design is untouched above this line.
@@ -925,4 +945,155 @@ body {
         height: 48px;
     }
 
+}
+
+/* Contact Page */
+#contact {
+    background: linear-gradient(rgba(1, 15, 81, 0.8), rgba(1, 15, 81, 0.8)), url('../Images/contact-banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.contact-1 .icon-circle {
+    background-color: #E0E440;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.contact-1 .icon-box {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-1 .icon-box .icon-content a {
+    color: #000;
+    text-decoration: none;
+}
+
+.contact-1 .icon-box .icon-content a:hover{
+    color: #E52290;
+}
+
+.contact-1 .contact-details {
+    background: #010f511a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.contact-map {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    border-radius: 20px;
+    display: block;
+    border: 0;
+}
+
+/* Prevent the icon + text pairing from overflowing on narrow columns */
+.contact-1 .icon-box {
+    align-items: flex-start;
+}
+
+.contact-1 .icon-box .icon-circle {
+    flex-shrink: 0;
+}
+
+.contact-1 .icon-box .icon-content {
+    min-width: 0;
+}
+
+.contact-1 .icon-box .icon-content p {
+    margin-bottom: 0;
+    word-break: break-word;
+}
+
+/* ---------- Contact page: large tablets / small laptops (<=1199.98px) ---------- */
+@media (max-width: 1199.98px) {
+    .page-banner .page-title {
+        font-size: 40px;
+    }
+}
+
+/* ---------- Contact page: tablets (<=991.98px) ---------- */
+@media (max-width: 991.98px) {
+    .page-banner {
+        height: 200px;
+    }
+
+    .page-banner .page-title {
+        font-size: 34px;
+    }
+
+    .contact-1 .icon-box {
+        margin-bottom: 20px;
+    }
+
+    .contact-1 .row .col-12.col-md-4.col-lg-4:last-child .icon-box {
+        margin-bottom: 0;
+    }
+}
+
+/* ---------- Contact page: mobile / phones (<=767.98px) ---------- */
+@media (max-width: 767.98px) {
+    .page-banner {
+        height: 160px;
+    }
+
+    .page-banner .page-title {
+        font-size: 28px;
+    }
+
+    .contact-1.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .contact-1 .contact-details {
+        padding: 16px;
+    }
+
+    .contact-1 .icon-circle {
+        width: 56px;
+        height: 56px;
+    }
+
+    .contact-1 .row.mt-5 {
+        margin-top: 1.5rem !important;
+    }
+}
+
+/* ---------- Contact page: small phones (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+    .page-banner {
+        height: 130px;
+    }
+
+    .page-banner .page-title {
+        font-size: 24px;
+    }
+
+    .contact-1 .icon-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .contact-1 .icon-box .icon-content h4 {
+        margin-bottom: 4px;
+    }
+
+    .contact-map {
+        aspect-ratio: 1 / 1;
+    }
+}
+
+/* ---------- Contact page: extra small phones (<=400px) ---------- */
+@media (max-width: 400px) {
+    .page-banner .page-title {
+        font-size: 20px;
+    }
 }

@@ -25,7 +25,7 @@ function template_header(){
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="index.php">
                             <img src="Assets/Images/logo.webp" alt="" class="img-fluid">
                         </a>
                         <button class="navbar-toggler" type="button"
@@ -40,7 +40,7 @@ function template_header(){
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Home</a>
+                                    <a class="nav-link" href="index.php">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
@@ -48,9 +48,9 @@ function template_header(){
                                         About
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="#">About Us</a></li>
+                                        <li><a class="dropdown-item" href="#">About Trust</a></li>
+                                        <li><a class="dropdown-item" href="#">Principal's Message</a></li>
                                     </ul>
                                 </li>
                                <li class="nav-item dropdown">
@@ -85,7 +85,7 @@ function template_header(){
                                     <a class="nav-link" href="#">Career</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link" href="contact.php">Contact</a>
                                 </li>
                             </ul>
                         </div>

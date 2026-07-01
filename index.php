@@ -21,7 +21,7 @@
 
 </head>
 
-<body>
+<body id ="home">
     <?=template_header()?>
     <section class="hero-section">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
