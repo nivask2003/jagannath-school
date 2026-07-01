@@ -243,7 +243,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-3">
+            <div class="row fac-2">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="fac-card" data-aos="fade-right" data-aos-delay="0">
                         <img src="Assets\Images\computer-lab.webp" alt="" class="img-fluid">

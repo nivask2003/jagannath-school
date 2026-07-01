@@ -47,3 +47,16 @@ AOS.init({
     offset: 100,
     easing: "ease-in-out"
 });
+
+const navbar = document.getElementById("navbarNavDropdown");
+const menuIcon = document.getElementById("menuIcon");
+
+navbar.addEventListener("show.bs.collapse", function () {
+    menuIcon.classList.remove("bi-list");
+    menuIcon.classList.add("bi-x-lg");
+});
+
+navbar.addEventListener("hide.bs.collapse", function () {
+    menuIcon.classList.remove("bi-x-lg");
+    menuIcon.classList.add("bi-list");
+});

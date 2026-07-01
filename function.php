@@ -15,7 +15,7 @@ function template_header(){
                         </ul>
                     </div>
                     <div class="col-12 col-md-3 col-lg-3" id="head-btn">
-                        <a href="" class="btn">Apply Now</a>
+                        <a href="admission-form.php" class="btn">Apply Now</a>
                     </div>
                 </div>
             </div>
@@ -28,10 +28,14 @@ function template_header(){
                         <a class="navbar-brand" href="#">
                             <img src="Assets/Images/logo.webp" alt="" class="img-fluid">
                         </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown"
+                            aria-expanded="false"
                             aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+
+                            <i class="bi bi-list" id="menuIcon"></i>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                             <ul class="navbar-nav">
@@ -219,7 +223,7 @@ function template_footer(){
                     <div class="col-12 col-md-3 col-lg-3">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.658755065776!2d80.22079947479139!3d12.800648418603812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52508488d716e3%3A0x61917a2ed418e38e!2sJAGANNATH%20VIDYALAYA!5e0!3m2!1sen!2sin!4v1782819184339!5m2!1sen!2sin"
-                            width="350" height="250" style="border:0; border-radius: 20px;" allowfullscreen=""
+                            width="250" height="250" style="border:0; border-radius: 20px;" allowfullscreen=""
                             loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                     </div>
 
@@ -227,7 +231,7 @@ function template_footer(){
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; Copyrights 2026 Jagannath Vidyalaya Matriculation Higher Secondary School, All rights
+            <p>&copy; Copyrights 2026 <br><a href="index.php">Jagannath Vidyalaya Matriculation Higher Secondary School</a><br>,All rights reserved.
                 Reserved.</p>
         </div>
 
