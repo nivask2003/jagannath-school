@@ -896,12 +896,16 @@ body {
     }
 
     header .main-header .navbar-brand img.img-fluid {
-        width: 120px;
+        width: 236px;
     }
 
     .home-5 .fac-card .fac-heading h4 {
-        font-size: 13px;
+        font-size: 16px;
     }
+
+    .home-6 .col-12.col-md-6.col-lg-6.aos-init.aos-animate {
+    margin-top: 16px;
+}
 }
 
 @media (max-width:482px) {
@@ -918,7 +922,7 @@ body {
     }
 
     .home-7 {
-        display: none;
+        display: none !important;
     }
 
     footer .footer-bottom p {
@@ -1095,5 +1099,151 @@ body {
 @media (max-width: 400px) {
     .page-banner .page-title {
         font-size: 20px;
+    }
+}
+
+/* Gallery Page */
+
+#gallery {
+    background: linear-gradient(rgba(1, 15, 81, 0.8), rgba(1, 15, 81, 0.8)), url('../Images/gallery-banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.gallery-1 img.img-fluid {
+    border-radius: 20px;
+}
+
+.gallery-1 .col-12.col-md-4.col-lg-4 {
+    position: relative;
+}
+
+.gallery-1 .overlay {
+    background: #010f5178;
+    position: absolute;
+    height: 100%;
+    width: 95%;
+    bottom: 0;
+    border-radius: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.gallery-1 .overlay .icon-circle{
+    background-color: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+.gallery-1 .overlay .icon-circle:hover{
+    cursor: pointer;
+}
+
+.gallery-1 .col-12.col-md-4.col-lg-4:hover .overlay{
+    display: flex;
+}
+
+.gallery-1 .r-2.row {
+    margin-top: 22px;
+}
+
+.gallery-1 .modal-content{
+    background: transparent;
+    box-shadow: none;
+}
+
+#popupImage{
+    width:100%;
+    max-height:85vh;
+    object-fit:contain;
+    border-radius:20px;
+}
+
+.btn-close{
+    opacity:1;
+    font-size:18px;
+}
+
+.modal-backdrop.show{
+    opacity:.9;
+}
+
+
+@media (max-width:482px){
+    .gallery-1 .r-2.row {
+    margin-top: 0;
+}
+}
+
+
+/* Facilities Page */
+
+#facilities {
+    background: linear-gradient(rgba(1, 15, 81, 0.8), rgba(1, 15, 81, 0.8)), url('../Images/facilities-banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.facilities-1{
+    background-color: #fff !important;
+    background-image: none !important;
+}
+
+
+.facilities-1 p {
+    text-align: justify;
+}
+
+/* ---------- Facilities page: responsive stacking (image/text pairs) ----------
+   Image + text pairs switch from side-by-side to col-12 (col-12 col-lg-6 in HTML)
+   below the lg breakpoint (992px), so this only affects tablet/mobile/zoomed-in
+   views. Desktop (>=992px, 100% zoom) layout is unchanged. */
+@media (max-width: 991.98px) {
+    .facilities-1 .fac-card {
+        margin-bottom: 16px;
+    }
+
+    .facilities-1 h3 {
+        margin-top: 4px;
+    }
+}
+
+/* ---------- Tablets (<=767.98px) ---------- */
+@media (max-width: 767.98px) {
+    .facilities-1 h3 {
+        font-size: 20px;
+    }
+
+    .facilities-1 p {
+        font-size: 15px;
+    }
+}
+
+/* ---------- Small phones / high zoom (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+    .facilities-1 p {
+        /* Justified text creates uneven, hard-to-read gaps on narrow columns */
+        text-align: left;
+    }
+
+    .home-5.facilities-1 {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+}
+
+/* ---------- Extra small phones / very high zoom (<=400px) ---------- */
+@media (max-width: 400px) {
+    .facilities-1 h3 {
+        font-size: 18px;
+    }
+
+    .facilities-1 p {
+        font-size: 14px;
     }
 }

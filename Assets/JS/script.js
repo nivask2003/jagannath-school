@@ -60,3 +60,14 @@ navbar.addEventListener("hide.bs.collapse", function () {
     menuIcon.classList.remove("bi-x-lg");
     menuIcon.classList.add("bi-list");
 });
+
+document.querySelectorAll(".icon-circle").forEach(item => {
+
+    item.addEventListener("click", function () {
+
+        document.getElementById("popupImage").src =
+            this.getAttribute("data-img");
+
+    });
+
+});
