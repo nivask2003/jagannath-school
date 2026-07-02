@@ -48,9 +48,8 @@ function template_header(){
                                         About
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">About Us</a></li>
-                                        <li><a class="dropdown-item" href="#">About Trust</a></li>
-                                        <li><a class="dropdown-item" href="#">Principal's Message</a></li>
+                                        <li><a class="dropdown-item" href="about.php">About Us</a></li>
+                                        <li><a class="dropdown-item" href="principal-message.php">Principal's Message</a></li>
                                     </ul>
                                 </li>
                                <li class="nav-item dropdown">
@@ -59,7 +58,7 @@ function template_header(){
                                         Academics
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="academics-overview.php">Academics Overview</a></li>
                                         <li><a class="dropdown-item" href="#">Another action</a></li>
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>

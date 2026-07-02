@@ -1247,3 +1247,272 @@ body {
         font-size: 14px;
     }
 }
+
+/* About Page */
+
+#about {
+    background: linear-gradient(rgba(1, 15, 81, 0.8), rgba(1, 15, 81, 0.8)), url('../Images/about-banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.about-1 p.section-desc, .about-2 p.section-desc {
+    text-align: justify;
+}
+
+.about-2 .box .section-title{
+    font-size: 40px !important;
+}
+
+.about-2 .box {
+    background: #010f511a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.about-3{
+    background: #232060
+}
+
+.about-3 span.badge{
+    color: #E0E440;
+}
+
+.trust .section-desc{
+    text-align:center !important
+}
+
+/* Message Page */
+
+#message {
+    background: linear-gradient(rgba(1, 15, 81, 0.8), rgba(1, 15, 81, 0.8)), url('../Images/message-banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.message-1 img.img-fluid {
+    border-radius: 20px;
+}
+
+.message-1 .box h3.section-title {
+    font-size: 40px;
+}
+
+.message-1 p.section-desc {
+    text-align: justify;
+}
+
+.message-1 .box {
+    background: #010f511a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.message-1 .box .section-desc:nth-of-type(1){
+    color: #E4405F;
+}
+
+/* ---------- Message page: large tablets / small laptops (<=1199.98px) ---------- */
+@media (max-width: 1199.98px) {
+    .message-1 .box h3.section-title {
+        font-size: 34px;
+    }
+}
+
+/* ---------- Message page: tablets (<=991.98px) ---------- */
+@media (max-width: 991.98px) {
+    .message-1 .box h3.section-title {
+        font-size: 30px;
+    }
+
+    .message-1 .box {
+        padding: 16px;
+    }
+}
+
+/* ---------- Message page: mobile / phones (<=767.98px) ---------- */
+@media (max-width: 767.98px) {
+    .message-1 .box h3.section-title {
+        font-size: 26px;
+    }
+
+    .message-1 p.section-desc {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .message-1.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+}
+
+/* ---------- Message page: small phones (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+    .message-1 .box h3.section-title {
+        font-size: 22px;
+    }
+
+    .message-1 .box {
+        padding: 14px;
+    }
+
+    .message-1 p.section-desc {
+        font-size: 14px;
+    }
+
+    .message-1 p.section-desc + hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+/* ---------- Message page: extra small phones / high zoom (<=400px) ---------- */
+@media (max-width: 400px) {
+    .message-1 .box h3.section-title {
+        font-size: 20px;
+    }
+}
+
+/* Academics Overview Page */
+
+#academics {
+    background: linear-gradient(rgba(1, 15, 81, 0.8), rgba(1, 15, 81, 0.8)), url('../Images/academics-banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.aca-over-1 h3.section-title {
+    font-size: 40px;
+}
+
+.aca-over-1 .box {
+    border: 2px solid #232060;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.aca-over-1 .box p.section-desc {
+    text-align: justify;
+}
+
+.aca-over-1 .row > div:nth-child(2) .box{
+    background-color: #010f511a;
+    border: none;
+}
+
+.aca-over-1 ul.icon-list {
+    padding: 0;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.aca-over-1 li.list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.aca-over-2 span.badge{
+    color: #73113d;
+}
+
+.aca-over-2 .section-title{
+    color: #010f51 !important;
+}
+
+/* ---------- Academics Overview: large tablets / small laptops (<=1199.98px) ---------- */
+@media (max-width: 1199.98px) {
+    .aca-over-1 h3.section-title {
+        font-size: 32px;
+    }
+}
+
+/* ---------- Academics Overview: tablets (<=991.98px) ---------- */
+@media (max-width: 991.98px) {
+    .aca-over-1 h3.section-title {
+        font-size: 28px;
+    }
+
+    .aca-over-1 .box {
+        padding: 16px;
+    }
+}
+
+/* ---------- Academics Overview: mobile / phones (<=767.98px) ---------- */
+@media (max-width: 767.98px) {
+    .aca-over-1 h3.section-title {
+        font-size: 24px;
+    }
+
+    /* Overview / Highlights boxes stack (col-12) below md; give them breathing room */
+    .aca-over-1 .row > div.col-12 {
+        margin-bottom: 16px;
+    }
+
+    .aca-over-1 .row > div.col-12:last-child {
+        margin-bottom: 0;
+    }
+
+    .aca-over-1 .box p.section-desc {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .aca-over-1 li.list {
+        font-size: 15px;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+
+    .aca-over-1 li.list svg {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+    }
+
+    /* The two icon-list columns inside the Highlights box stack below md */
+    .aca-over-1 .row > div:nth-child(2) .box .row > div.col-12:last-child {
+        margin-top: 4px;
+    }
+}
+
+/* ---------- Academics Overview: small phones (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+    .aca-over-1 h3.section-title {
+        font-size: 20px;
+    }
+
+    .aca-over-1 .box {
+        padding: 14px;
+    }
+
+    .aca-over-1 ul.icon-list {
+        margin-top: 12px;
+    }
+
+    .aca-over-1 li.list {
+        font-size: 14px;
+    }
+}
+
+/* ---------- Academics Overview: extra small phones / very high zoom (<=400px) ---------- */
+@media (max-width: 400px) {
+    .aca-over-1 h3.section-title {
+        font-size: 18px;
+    }
+
+    .aca-over-1 .box {
+        padding: 12px;
+    }
+
+    .aca-over-1 li.list {
+        font-size: 13px;
+        gap: 6px;
+    }
+
+    .aca-over-1 li.list svg {
+        width: 20px;
+        height: 20px;
+    }
+}
