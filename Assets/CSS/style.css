@@ -1473,7 +1473,7 @@ body {
 
     /* The two icon-list columns inside the Highlights box stack below md */
     .aca-over-1 .row > div:nth-child(2) .box .row > div.col-12:last-child {
-        margin-top: 4px;
+        margin-top: -35px;
     }
 }
 
@@ -1514,5 +1514,11 @@ body {
     .aca-over-1 li.list svg {
         width: 20px;
         height: 20px;
+    }
+}
+
+@media (max-width:482px){
+    .aca-over-1 .row > div:nth-child(2) .box{
+        margin-top: 10px;
     }
 }
