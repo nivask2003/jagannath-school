@@ -30,7 +30,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
-                    <div class="ext-card">
+                    <div class="ext-card" data-aos="fade-right">
                         <div class="card-heading">
                             <h4 class="card-title">Arts & Crafts</h4>
                         </div>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <div class="ext-card">
+                    <div class="ext-card" data-aos="fade-down">
                         <div class="card-heading">
                             <h4 class="card-title">Music</h4>
                         </div>
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <div class="ext-card">
+                    <div class="ext-card" data-aos="fade-left">
                         <div class="card-heading">
                             <h4 class="card-title">Dance</h4>
                         </div>
@@ -71,7 +71,7 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
-                    <div class="ext-card">
+                    <div class="ext-card" data-aos="fade-right">
                         <div class="card-heading">
                             <h4 class="card-title">Yoga</h4>
                         </div>
@@ -84,7 +84,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <div class="ext-card">
+                    <div class="ext-card" data-aos="fade-up">
                         <div class="card-heading">
                             <h4 class="card-title">Sports</h4>
                         </div>
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left">
                     <div class="ext-card">
                         <div class="card-heading">
                             <h4 class="card-title">Cultural Programmes</h4>
