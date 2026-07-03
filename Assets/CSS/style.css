@@ -1997,3 +1997,473 @@ div#carouselExampleControls {
         padding: 12px;
     }
 }
+
+/* Admission Procedure */
+
+#admission{
+    background: linear-gradient(rgba(1, 15, 81, 0.8), rgba(1, 15, 81, 0.8)), url('../Images/about-banner.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.admission-1 p.section-desc {
+    text-align: justify;
+}
+
+.admission-1 img.img-fluid {
+    border-radius: 20px;
+}
+
+.admission-1 .icon-circle {
+    background-color: #E0E440;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.admission-1 .icon-box {
+    display: flex;
+    gap: 10px;
+}
+
+.admission-1 h4.section-title {
+    font-size: 40px;
+}
+
+.admission-1 .box{
+    background-color: #010f511a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.admission-1 .box:hover{
+    border: 2px solid #010f51;
+}
+
+.admission-1 .box h4{
+    color: #010f51;
+}
+
+.admission-1 .box:nth-of-type(2), .admission-1 .box:nth-of-type(3){
+    margin-top: 10px;
+}
+
+.admission-1 .row:nth-of-type(2){
+    margin-top: 24px;
+}
+
+.admission-1 .box ul.icon-list {
+    padding: 0;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.admission-1 li.list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.admission-2{
+    background-color: #010f511a;
+}
+
+/* ---------- Admission page: large tablets / small laptops (<=1199.98px) ---------- */
+@media (max-width: 1199.98px) {
+    .admission-1 .section-title {
+        font-size: 38px;
+    }
+
+    .admission-1 h4.section-title {
+        font-size: 34px;
+    }
+}
+
+/* ---------- Admission page: tablets (<=991.98px) ---------- */
+@media (max-width: 991.98px) {
+    .admission-1 .section-title {
+        font-size: 32px;
+    }
+
+    .admission-1 h4.section-title {
+        font-size: 28px;
+    }
+
+    .admission-1 .box h4 {
+        font-size: 20px;
+    }
+
+    .admission-1 .box {
+        padding: 16px;
+    }
+}
+
+/* ---------- Admission page: mobile / phones (<=767.98px) ----------
+   Both rows collapse from side-by-side columns to full-width stacked
+   columns here, so each column needs its own bottom spacing instead of
+   relying on row gutters. */
+@media (max-width: 767.98px) {
+    .admission-1.py-5,
+    .admission-2.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .admission-1 .section-title,
+    .admission-2 .section-title {
+        font-size: 26px;
+    }
+
+    .admission-1 p.section-desc {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .admission-1 .row:nth-of-type(1) > .col-12.col-md-4.col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+    .admission-1 .row:nth-of-type(2) {
+        margin-top: 4px;
+    }
+
+    .admission-1 .row:nth-of-type(2) > .col-12.col-md-6.col-lg-6:first-child .box {
+        margin-bottom: 20px;
+    }
+
+    .admission-1 .box {
+        padding: 16px;
+    }
+
+    .admission-1 .box:nth-of-type(2),
+    .admission-1 .box:nth-of-type(3) {
+        margin-top: 12px;
+    }
+
+    .admission-1 .box h4 {
+        font-size: 19px;
+    }
+
+    .admission-1 .icon-circle {
+        width: 52px;
+        height: 52px;
+    }
+
+    .admission-1 li.list {
+        font-size: 14px;
+        align-items: flex-start;
+    }
+
+    .admission-1 li.list svg {
+        flex-shrink: 0;
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/* ---------- Admission page: small phones (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+    .admission-1 .section-title,
+    .admission-2 .section-title {
+        font-size: 22px;
+    }
+
+    .admission-1 .box h4 {
+        font-size: 18px;
+    }
+
+    .admission-1 li.list {
+        font-size: 13px;
+    }
+
+    .admission-1 li.list svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .home-4 .accordion-group {
+        font-size: 15px;
+    }
+
+    .home-4 summary {
+        padding: 14px;
+    }
+
+    .home-4 .content-body {
+        padding: 16px;
+    }
+}
+
+/* ---------- Admission page: extra small phones / very high zoom (<=400px) ---------- */
+@media (max-width: 400px) {
+    .admission-1 .section-title,
+    .admission-2 .section-title {
+        font-size: 19px;
+    }
+
+    .admission-1 span.badge,
+    .admission-2 span.badge {
+        font-size: 15px;
+    }
+
+    .admission-1 .box h4 {
+        font-size: 16px;
+    }
+
+    .admission-1 .box {
+        padding: 14px;
+    }
+
+    .admission-1 li.list {
+        font-size: 12px;
+    }
+
+    .admission-1 li.list svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .home-4 .accordion-group {
+        font-size: 14px;
+    }
+}
+
+/* Rules & Regulations */
+
+.rules{
+    background:#f8f9ff;
+}
+
+.rules .content{
+    margin-top:25px;
+}
+
+.rules .content:first-child{
+    margin-top:0;
+}
+
+.rules .rule-card{
+    display:flex;
+    gap:20px;
+    align-items:flex-start;
+    padding:28px;
+    background:#fff;
+    border-radius:20px;
+    border-left:6px solid #E4405F;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.35s ease;
+}
+
+.rules .rule-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 18px 40px rgba(1,15,81,.18);
+}
+
+.rules .rule-icon{
+    min-width:70px;
+    width:70px;
+    height:70px;
+    border-radius:18px;
+    background:#E0E440;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.rules .rule-icon .material-symbols-outlined{
+    font-size:34px;
+    color:#010f51;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 500,
+    'GRAD' 0,
+    'opsz' 48;
+}
+
+.rules h4.section-title{
+    font-size:32px;
+    color:#010f51;
+    margin-bottom:12px;
+}
+
+.rules p.section-desc{
+    text-align:justify;
+    margin-bottom:0;
+    line-height:1.8;
+    color:#555;
+}
+
+.rules .rule-card:hover .rule-icon{
+    background:#E4405F;
+}
+
+.rules .rule-card:hover .rule-icon .material-symbols-outlined{
+    color:#fff;
+}
+
+/* ---------- Rules page: large desktops / wide screens (>=1400px) ---------- */
+@media (min-width: 1400px) {
+
+.rules .content {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
+/* ---------- Rules page: laptops / small desktops (<=1199.98px) ---------- */
+@media (max-width: 1199.98px) {
+
+.rules .rule-card{
+    padding:24px;
+    gap:18px;
+}
+
+.rules .rule-icon{
+    min-width:65px;
+    width:65px;
+    height:65px;
+}
+
+.rules .rule-icon .material-symbols-outlined{
+    font-size:30px;
+}
+
+.rules h4.section-title{
+    font-size:28px;
+}
+
+}
+
+/* ---------- Rules page: tablets (<=991.98px) ---------- */
+@media (max-width: 991.98px) {
+
+.rules .content{
+    margin-top:20px;
+}
+
+.rules .rule-card{
+    padding:22px;
+    gap:16px;
+}
+
+.rules .rule-icon{
+    min-width:60px;
+    width:60px;
+    height:60px;
+}
+
+.rules .rule-icon .material-symbols-outlined{
+    font-size:28px;
+}
+
+.rules h4.section-title{
+    font-size:26px;
+    margin-bottom:10px;
+}
+
+.rules p.section-desc{
+    font-size:15.5px;
+}
+
+}
+
+/* ---------- Rules page: mobile / phones (<=767.98px) ---------- */
+@media (max-width: 767.98px) {
+
+.rules.py-5{
+    padding-top:2.5rem !important;
+    padding-bottom:2.5rem !important;
+}
+
+.rules .rule-card{
+    flex-direction:column;
+    padding:20px;
+    gap:14px;
+}
+
+.rules .rule-icon{
+    min-width:56px;
+    width:56px;
+    height:56px;
+}
+
+.rules .rule-icon .material-symbols-outlined{
+    font-size:26px;
+}
+
+.rules h4.section-title{
+    font-size:22px;
+    margin-bottom:8px;
+}
+
+.rules p.section-desc{
+    text-align:left;
+    font-size:15px;
+}
+
+}
+
+/* ---------- Rules page: small phones (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+
+.rules .rule-card{
+    padding:16px;
+    gap:12px;
+    border-radius:16px;
+}
+
+.rules .rule-icon{
+    min-width:50px;
+    width:50px;
+    height:50px;
+    border-radius:14px;
+}
+
+.rules .rule-icon .material-symbols-outlined{
+    font-size:22px;
+}
+
+.rules h4.section-title{
+    font-size:20px;
+}
+
+.rules p.section-desc{
+    font-size:14px;
+    line-height:1.6;
+}
+
+}
+
+/* ---------- Rules page: extra small phones (<=400px) ---------- */
+@media (max-width: 400px) {
+
+.rules .rule-card{
+    padding:14px;
+    gap:10px;
+}
+
+.rules .rule-icon{
+    min-width:44px;
+    width:44px;
+    height:44px;
+    border-radius:12px;
+}
+
+.rules .rule-icon .material-symbols-outlined{
+    font-size:20px;
+}
+
+.rules h4.section-title{
+    font-size:18px;
+}
+
+.rules p.section-desc{
+    font-size:13px;
+}
+
+}

@@ -72,9 +72,9 @@ function template_header(){
                                         Admission
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="admission.php">Admission Procedure</a></li>
+                                        <li><a class="dropdown-item" href="admission-form.php">Admission Form</a></li>
+                                        <li><a class="dropdown-item" href="rules.php">Rules & Regulation</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
