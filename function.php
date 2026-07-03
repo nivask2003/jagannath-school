@@ -59,8 +59,8 @@ function template_header(){
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                         <li><a class="dropdown-item" href="academics-overview.php">Academics Overview</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="curriculum.php">Curriculum</a></li>
+                                        <li><a class="dropdown-item" href="extra-curricular.php">Extra - Curricular Activities</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">

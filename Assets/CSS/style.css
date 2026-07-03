@@ -135,8 +135,8 @@ header .navbar-toggler i{
     transition: .3s;
 }
 
-.hero-section .carousel-control-prev,
-.hero-section .carousel-control-next {
+.curr-2 .carousel-control-prev,
+.curr-2 .carousel-control-next {
     width: 55px;
     height: 55px;
     background-color: #E0E440;
@@ -215,7 +215,7 @@ section.home-3 {
     overflow: hidden;
     border-radius: 20px;
     background: transparent;
-    transition: 0.3s ease-in-out;
+    transition: all 0.4s ease;
 }
 
 .home-3 .card img.img-fluid {
@@ -237,31 +237,49 @@ section.home-3 {
 }
 
 .home-3 .card .card-heading {
-    position: absolute;
-    bottom: 10px;
+     position: absolute;
     left: 10px;
-    width: calc(100% - 20px);
+    right: 10px;
+    bottom: 10px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255,255,255,0.15);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
     z-index: 2;
-    /* Above overlay */
+    transition: all 0.5s ease;
 }
 
 .home-3 .card .card-heading .card-title {
     color: #E0E440;
+    margin-bottom: 0;
+    transition: margin-bottom 0.4s ease;
 }
 
 .home-3 .card .card-heading p.card-desc {
     color: #fff;
     text-align: justify;
-    display: none;
+
+    /* Hidden state */
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+}
+
+.home-3 .card:hover .card-heading {
+    bottom: 20px;
+}
+
+.home-3 .card:hover .card-heading .card-title {
+    margin-bottom: 12px;
 }
 
 .home-3 .card:hover .card-heading p.card-desc {
-    display: block;
+    opacity: 1;
+    max-height: 200px;
+    transform: translateY(0);
 }
 
 .home-4 .btn {
@@ -1520,5 +1538,462 @@ body {
 @media (max-width:482px){
     .aca-over-1 .row > div:nth-child(2) .box{
         margin-top: 10px;
+    }
+    .home-3 .card:hover .card-heading {
+    bottom: 0px;
+}
+}
+
+/* Curriculum Page */
+
+.curr-1 img.img-fluid{
+    border-radius: 20px;
+}
+.curr-1 p.section-desc {
+    text-align: justify;
+}
+
+.curr-1 .icon-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.curr-1 .icon-circle{
+        background-color: #E0E440;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#second-row{
+    margin-top: 14px;
+}
+
+.curr-2{
+    background-color: #010f511a;
+}
+
+.curr-2 h4.section-title {
+    font-size: 40px;
+}
+
+.curr-2 img.img-fluid {
+    border-radius: 20px;
+}
+
+div#carouselExampleControls {
+    position: relative;
+}
+
+
+.curr-2 .carousel-inner {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.curr-2 .carousel-control-prev,
+.hero-section .carousel-control-next {
+    width: 55px;
+    height: 55px;
+    background-color: #E0E440;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+.curr-2 .carousel-control-prev {
+    left: -65px;
+}
+
+.curr-2 .carousel-control-next {
+    right: -65px;
+}
+
+.curr-2 .carousel-control-prev-icon {
+    background-image: url("../Images/arrow_back_ios_24dp_232060_FILL0_wght400_GRAD0_opsz24.svg");
+    background-size: 22px;
+}
+
+.curr-2 .carousel-control-next-icon {
+    background-image: url("../Images/arrow_forward_ios_24dp_232060_FILL0_wght400_GRAD0_opsz24.svg");
+    background-size: 22px;
+}
+
+.curr-3 .content-1 h4.section-title, .curr-3 .content-2 h4.section-title {
+    font-size: 40px;
+}
+
+.curr-3 table thead{
+    background-color: #010f51;
+    color: #fff;
+}
+
+/* ---------- Curriculum page: large tablets / small laptops (<=1199.98px) ---------- */
+@media (max-width: 1199.98px) {
+    .curr-1 .section-title {
+        font-size: 38px;
+    }
+
+    .curr-2 h4.section-title {
+        font-size: 34px;
+    }
+
+    .curr-3 .content-1 h4.section-title,
+    .curr-3 .content-2 h4.section-title {
+        font-size: 34px;
+    }
+
+    .curr-2 .carousel-control-prev {
+        left: -20px;
+    }
+
+    .curr-2 .carousel-control-next {
+        right: -20px;
+    }
+}
+
+/* ---------- Curriculum page: tablets (<=991.98px) ---------- */
+@media (max-width: 991.98px) {
+    .curr-1 .section-title {
+        font-size: 32px;
+    }
+
+    .curr-1 .icon-circle {
+        width: 56px;
+        height: 56px;
+    }
+
+    .curr-2 h4.section-title {
+        font-size: 30px;
+    }
+
+    .curr-2 .carousel-inner {
+        padding: 16px;
+    }
+
+    .curr-3 .content-1 h4.section-title,
+    .curr-3 .content-2 h4.section-title {
+        font-size: 30px;
+    }
+
+    .curr-3 .content-2 {
+        margin-top: 24px;
+    }
+}
+
+/* ---------- Curriculum page: mobile / phones (<=767.98px) ---------- */
+@media (max-width: 767.98px) {
+    .curr-1.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .curr-1 .section-title {
+        font-size: 28px;
+    }
+
+    .curr-1 p.section-desc {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .curr-1 .row > .col-12.col-md-6.col-lg-6:first-child {
+        margin-bottom: 20px;
+    }
+
+    #second-row {
+        margin-top: 10px;
+    }
+
+    .curr-1 .icon-box {
+        margin-bottom: 10px;
+    }
+
+    .curr-2.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .curr-2 h4.section-title {
+        font-size: 26px;
+    }
+
+    .curr-2 .section-desc {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .curr-2 .row > .col-12.col-md-6.col-lg-6:first-child img.img-fluid {
+        margin-bottom: 16px;
+    }
+
+    .curr-2 .carousel-control-prev,
+    .curr-2 .carousel-control-next {
+        width: 44px;
+        height: 44px;
+        top: auto;
+        bottom: -22px;
+        transform: none;
+    }
+
+    .curr-2 .carousel-control-prev {
+        left: calc(50% - 55px);
+    }
+
+    .curr-2 .carousel-control-next {
+        right: calc(50% - 55px);
+    }
+
+    div#carouselExampleControls {
+        padding-bottom: 32px;
+    }
+
+    .curr-3.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .curr-3 .content-1 h4.section-title,
+    .curr-3 .content-2 h4.section-title {
+        font-size: 26px;
+    }
+
+    .curr-3 .content-2 {
+        margin-top: 28px;
+    }
+
+    .curr-3 table td,
+    .curr-3 table th {
+        font-size: 14px;
+    }
+}
+
+/* ---------- Curriculum page: small phones (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+    .curr-1 .section-title {
+        font-size: 24px;
+    }
+
+    .curr-1 .icon-circle {
+        width: 48px;
+        height: 48px;
+    }
+
+    .curr-1 .icon-circle svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .curr-1 .icon-box .content h4 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .curr-2 h4.section-title {
+        font-size: 22px;
+    }
+
+    .curr-2 .carousel-inner {
+        padding: 12px;
+    }
+
+    .curr-2 ul.icon-list li.list {
+        font-size: 14px;
+    }
+
+    .curr-3 .content-1 h4.section-title,
+    .curr-3 .content-2 h4.section-title {
+        font-size: 22px;
+    }
+
+    .curr-3 table td,
+    .curr-3 table th {
+        font-size: 13px;
+        padding: 8px;
+    }
+}
+
+/* ---------- Curriculum page: extra small phones / very high zoom (<=400px) ---------- */
+@media (max-width: 400px) {
+    .curr-1 .section-title {
+        font-size: 20px;
+    }
+
+    .curr-1 span.badge {
+        font-size: 15px;
+    }
+
+    .curr-1 .icon-box .content h4 {
+        font-size: 15px;
+    }
+
+    .curr-2 h4.section-title {
+        font-size: 19px;
+    }
+
+    .curr-2 .carousel-control-prev,
+    .curr-2 .carousel-control-next {
+        width: 38px;
+        height: 38px;
+    }
+
+    .curr-3 .content-1 h4.section-title,
+    .curr-3 .content-2 h4.section-title {
+        font-size: 19px;
+    }
+
+    .curr-3 table td,
+    .curr-3 table th {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
+
+/* Extra Curricular Activity */
+
+.extra-1 .ext-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all .4s ease;
+}
+
+.extra-1 .ext-card .card-image{
+    overflow: hidden;
+}
+
+.extra-1 .ext-card .card-image img{
+    width: 100%;
+    transition: transform .5s ease;
+}
+
+.extra-1 .ext-card .card-heading{
+    background: #010f51;
+    color: #fff;
+    padding: 12px;
+    transition: all .4s ease;
+}
+
+.extra-1 .ext-card .card-body{
+    background: #010f511a;
+    padding: 20px;
+    transition: all .4s ease;
+}
+
+.extra-1 .ext-card .card-desc{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* Hover Effects */
+.extra-1 .ext-card:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.2);
+}
+
+.extra-1 .ext-card:hover .card-image img{
+    transform: scale(1.08);
+}
+
+.extra-1 .ext-card:hover .card-heading{
+    background: #E4405F;
+}
+
+.extra-1 .ext-card:hover .card-body{
+    background: #fff;
+}
+
+.extra-1 .row:nth-of-type(2){
+    margin-top: 20px;
+}
+
+/* ---------- Extra-Curricular page: large tablets / small laptops (<=1199.98px) ---------- */
+@media (max-width: 1199.98px) {
+    .extra-1 .card-title {
+        font-size: 20px;
+    }
+}
+
+/* ---------- Extra-Curricular page: tablets (<=991.98px) ---------- */
+@media (max-width: 991.98px) {
+    .extra-1 .card-body {
+        padding: 16px;
+    }
+}
+
+/* ---------- Extra-Curricular page: mobile / phones (<=767.98px) ----------
+   Cards go from 3-across (col-md-4) to full-width (col-12) and stack
+   vertically here, so give each card its own bottom spacing instead of
+   relying on row gutters. */
+@media (max-width: 767.98px) {
+    .extra-1.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .extra-1 .row:nth-of-type(2) {
+        margin-top: 0;
+    }
+
+    .extra-1 .col-12.col-md-4.col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+    .extra-1 .col-12.col-md-4.col-lg-4:last-child {
+        margin-bottom: 0;
+    }
+
+    .extra-1 .card-title {
+        font-size: 19px;
+    }
+
+    .extra-1 .card-desc {
+        font-size: 15px;
+    }
+
+    .extra-1 .card-body {
+        padding: 14px;
+    }
+
+    .extra-1 .card-heading {
+        padding: 10px;
+    }
+}
+
+/* ---------- Extra-Curricular page: small phones (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+    .extra-1 .card-title {
+        font-size: 18px;
+    }
+
+    .extra-1 .card-desc {
+        font-size: 14px;
+    }
+
+    .extra-1 .col-12.col-md-4.col-lg-4 {
+        margin-bottom: 16px;
+    }
+}
+
+/* ---------- Extra-Curricular page: extra small phones / high zoom (<=400px) ---------- */
+@media (max-width: 400px) {
+    .extra-1 .card-title {
+        font-size: 16px;
+    }
+
+    .extra-1 .card-desc {
+        font-size: 13px;
+    }
+
+    .extra-1 .card-body {
+        padding: 12px;
     }
 }
