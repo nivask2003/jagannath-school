@@ -80,8 +80,15 @@ function template_header(){
                                 <li class="nav-item">
                                     <a class="nav-link" href="gallery.php">Gallery</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Career</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Career
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="career.php">Career Guidance</a></li>
+                                        <li><a class="dropdown-item" href="career-form.php">Career Form</a></li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.php">Contact</a>
