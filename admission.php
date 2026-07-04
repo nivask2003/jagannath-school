@@ -44,10 +44,10 @@
                 empowers every student to achieve success, develop confidence, and become a responsible, compassionate,
                 and future-ready individual.</p>
             <div class="row">
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
                     <img src="Assets/Images/admission.webp" alt="" class="img-fluid">
                 </div>
-                <div class="col-12 col-md-8 col-lg-8">
+                <div class="col-12 col-md-8 col-lg-8" data-aos="fade-left">
                     <div class="box">
                         <h4>Eligibility</h4>
                         <p class="section-desc">Admissions are offered based on the age criteria and academic
@@ -71,8 +71,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
+            <div class="row" data-aos="fade-up">
+                <div class="col-12 col-md-6 col-lg-6" >
                     <div class="box">
                         <h4>Simple Steps for Admission</h4>
                     <ul class="icon-list">
@@ -101,7 +101,7 @@
             </div>
         </div>
     </section>
-    <section class="admission-2 py-5 home-4">
+    <section class="admission-2 py-5 home-4" data-aos="fade-up">
         <div class="container">
             <div class="heading-center">
                 <span class="badge"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
