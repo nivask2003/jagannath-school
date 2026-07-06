@@ -57,7 +57,7 @@ span.badge {
 
 
 header .top-header {
-    background-color: #05519F;
+    background-color: #010f51;
     padding-top: 8px;
     /* padding-bottom: 8px; */
 }
@@ -302,6 +302,121 @@ section.home-3::before{
     transform: translateY(0);
 }
 
+.home-4-new{
+    background-color: #f2a60014;
+}
+
+.home-4-new .box .section-desc{
+    text-align: justify;
+}
+
+.home-4-new .box .section-title{
+    font-size: 40px;
+}
+
+.home-4-new .vision .box {
+    padding: 20px;
+    background: #5c082f;
+    border-radius: 20px;
+}
+.home-4-new .mission .box{
+    padding: 20px;
+    background-color: #755193;
+    border-radius: 20px;
+}
+.home-4-new .value .box{
+    padding: 20px;
+    background-color: #010f51;
+    border-radius: 20px;
+}
+
+.home-4-new .icon-circle{
+    background-color: #E0E440;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.home-4-new img.img-fluid{
+    border-radius: 20px;
+    border: #E0E440;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.home-4-new img.img-fluid:hover{
+    border: 8px solid #E0E440;
+}
+
+/* ===== Responsive scaling (desktop ≥1200px untouched) ===== */
+
+@media (max-width: 1199.98px){
+    .home-4-new .box .section-title{
+        font-size: clamp(26px, 4vw, 36px);
+    }
+    .home-4-new .box{
+        padding: 18px;
+    }
+}
+
+@media (max-width: 991.98px){
+    .home-4-new .box .section-title{
+        font-size: clamp(24px, 5vw, 32px);
+    }
+    .home-4-new .vision,
+    .home-4-new .mission,
+    .home-4-new .value{
+        margin-bottom: 30px;
+    }
+
+    .home-4-new .vision, .home-4-new .value{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+    .home-4-new .icon-circle{
+        width: 56px;
+        height: 56px;
+    }
+}
+
+@media (max-width: 767.98px){
+    .home-4-new .box .section-title{
+        font-size: clamp(22px, 6vw, 28px);
+    }
+    .home-4-new .box .section-desc{
+        font-size: 15px;
+        text-align: left;
+    }
+    .home-4-new .box{
+        padding: 16px;
+    }
+    .home-4-new img.img-fluid:hover{
+        border-width: 5px;
+    }
+}
+
+@media (max-width: 575.98px){
+    .home-4-new .box .section-title{
+        font-size: clamp(20px, 7vw, 24px);
+    }
+    .home-4-new .icon-circle{
+        width: 48px;
+        height: 48px;
+    }
+    .home-4-new .box{
+        padding: 14px;
+        border-radius: 16px;
+    }
+    .home-4-new img.img-fluid{
+        border-radius: 16px;
+    }
+}
 .home-4 .btn {
     position: relative;
     z-index: 99;
@@ -707,7 +822,7 @@ footer .footer-main::before{
     content: "";
     position: absolute;
     background-image: url(../Images/waves-2-large.svg);
-    bottom: 332px;
+    top: -86px;
     height: 100px;
     width: 100%;
     transform: rotate(180deg);
@@ -728,8 +843,8 @@ footer .footer-main a.icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 64px;
-    height: 64px;
+    width: 54px;
+    height: 54px;
 }
 
 footer .footer-main .youtube-icon {
@@ -1143,6 +1258,10 @@ body {
     background-size: cover;
 }
 
+.contact-1{
+    background-color: #f2a60014;
+}
+
 .contact-1 .icon-circle {
     background-color: #E0E440;
     width: 64px;
@@ -1168,10 +1287,28 @@ body {
 }
 
 .contact-1 .contact-details {
-    background: #010f511a;
+    background: #fff;
     padding: 20px;
     border-radius: 20px;
+    position: relative;
 }
+
+.contact-1 .contact-details:before{
+    content: "";
+    position: absolute;
+    background-color: #73113d1a;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+}
+
+.contact-1 .contact-details h4{
+    font-weight: 700;
+}
+
+
 
 .contact-map {
     width: 100%;
@@ -2728,5 +2865,11 @@ section.home-6.py-5 {
 @media (max-width: 482px){
     .about-1.py-5{
         padding-top: 12px !important;
+    }
+    .home-2 p.section-desc:nth-of-type(2) {
+    display: none;
+    }
+    .home-2 p.section-desc{
+        text-align: center;
     }
 }

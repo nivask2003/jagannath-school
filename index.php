@@ -114,9 +114,45 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
-                    <div class="vission">
+                    <div class="vision">
                         <div class="box">
-                            <h4 class="section-title">Vision</h4>
+                            <div class="icon-circle">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#010f51"><path d="M607.5-372.5Q660-425 660-500t-52.5-127.5Q555-680 480-680t-127.5 52.5Q300-575 300-500t52.5 127.5Q405-320 480-320t127.5-52.5Zm-204-51Q372-455 372-500t31.5-76.5Q435-608 480-608t76.5 31.5Q588-545 588-500t-31.5 76.5Q525-392 480-392t-76.5-31.5ZM214-281.5Q94-363 40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200q-146 0-266-81.5Z"/></svg> 
+                            </div>
+                            <h4 class="section-title text-white">Vision</h4>
+                            <p class="section-desc text-white">To cultivate confident leaders who inspire positive change, embrace innovation, and create a lasting impact in their communities while contributing meaningfully to a better world.</p>
+                        </div>
+                        <div class="image mt-4">
+                            <img src="Assets/Images/vision.webp" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="mission">
+                        <div class="image">
+                            <img src="Assets/Images/our-mission.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="box mt-4">
+                            <div class="icon-circle">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#010f51"><path d="M607.5-372.5Q660-425 660-500t-52.5-127.5Q555-680 480-680t-127.5 52.5Q300-575 300-500t52.5 127.5Q405-320 480-320t127.5-52.5Zm-204-51Q372-455 372-500t31.5-76.5Q435-608 480-608t76.5 31.5Q588-545 588-500t-31.5 76.5Q525-392 480-392t-76.5-31.5ZM214-281.5Q94-363 40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200q-146 0-266-81.5Z"/></svg> 
+                            </div>
+                            <h4 class="section-title text-white">Mission</h4>
+                            <p class="section-desc text-white">To cultivate confident leaders who inspire positive change, embrace innovation, and create a lasting impact in their communities while contributing meaningfully to a better world.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="value">
+                        <div class="box">
+                            <div class="icon-circle">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#010f51"><path d="M607.5-372.5Q660-425 660-500t-52.5-127.5Q555-680 480-680t-127.5 52.5Q300-575 300-500t52.5 127.5Q405-320 480-320t127.5-52.5Zm-204-51Q372-455 372-500t31.5-76.5Q435-608 480-608t76.5 31.5Q588-545 588-500t-31.5 76.5Q525-392 480-392t-76.5-31.5ZM214-281.5Q94-363 40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200q-146 0-266-81.5Z"/></svg> 
+                            </div>
+                            <h4 class="section-title text-white">Values</h4>
+                            <p class="section-desc text-white">We uphold integrity, excellence, discipline, diversity, creativity, collaboration, empathy, and continuous growth to shape responsible, confident, and compassionate future leaders.</p>
+                        </div>
+                        <div class="image mt-4">
+                            <img src="Assets/Images/core.webp" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -267,15 +303,13 @@
                     </svg>Facilities</span>
                 <h2 class="section-title text-white" data-aos="fade-up" data-aos-delay="100">Facilities That Inspire Growth</h2>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-4">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="card" data-aos="fade-right">
                         <img src="Assets/Images/smart-classroom.webp" alt="" class="img-fluid">
                         <div class="card-heading">
                             <h3 class="card-title">Smart Classroom</h3>
-                            <p class="card-desc">To provide holistic education that fosters academic excellence, strong
-                                values, integrity, respect, inclusivity, and the skills and confidence needed to succeed
-                                in the 21st century.</p>
+                            <p class="card-desc">Smart classrooms use modern technology to make learning interactive, engaging, effective, and easy to understand.</p>
                         </div>
                     </div>
                 </div>
@@ -284,9 +318,7 @@
                         <img src="Assets/Images/bio-lab.webp" alt="" class="img-fluid">
                         <div class="card-heading">
                             <h3 class="card-title">Science Lab</h3>
-                            <p class="card-desc">To cultivate confident leaders who inspire positive change, embrace
-                                innovation, and create a lasting impact in their communities while contributing
-                                meaningfully to a better world.</p>
+                            <p class="card-desc">Science laboratories provide practical learning through safe experiments that build scientific and analytical skills.</p>
 
                         </div>
                     </div>
@@ -296,9 +328,7 @@
                         <img src="Assets\Images\library.webp" alt="" class="img-fluid">
                         <div class="card-heading">
                             <h3 class="card-title">Library</h3>
-                            <p class="card-desc">We uphold integrity, excellence, discipline, diversity, creativity,
-                                collaboration, empathy, and continuous growth to shape responsible, confident, and
-                                compassionate future leaders.</p>
+                            <p class="card-desc">Our library offers books and learning resources that encourage reading, research, knowledge, and lifelong learning.</p>
                         </div>
                     </div>
                 </div>
@@ -309,9 +339,7 @@
                         <img src="Assets\Images\computer-lab.webp" alt="" class="img-fluid">
                         <div class="card-heading">
                             <h3 class="card-title">Computer Lab</h3>
-                            <p class="card-desc">To provide holistic education that fosters academic excellence, strong
-                                values, integrity, respect, inclusivity, and the skills and confidence needed to succeed
-                                in the 21st century.</p>
+                            <p class="card-desc">Our computer lab equips students with digital skills through hands-on learning, programming, and modern technology.</p>
                         </div>
                     </div>
                 </div>
@@ -320,9 +348,7 @@
                         <img src="Assets\Images\transport.webp" alt="" class="img-fluid">
                         <div class="card-heading">
                             <h3 class="card-title">Transportation</h3>
-                            <p class="card-desc">To cultivate confident leaders who inspire positive change, embrace
-                                innovation, and create a lasting impact in their communities while contributing
-                                meaningfully to a better world.</p>
+                            <p class="card-desc">Our safe and reliable school transport ensures comfortable, punctual, and secure travel for every student.</p>
 
                         </div>
                     </div>
@@ -332,9 +358,7 @@
                         <img src="Assets\Images\sports.webp" alt="" class="img-fluid">
                         <div class="card-heading">
                             <h3 class="card-title">Sports</h3>
-                            <p class="card-desc">We uphold integrity, excellence, discipline, diversity, creativity,
-                                collaboration, empathy, and continuous growth to shape responsible, confident, and
-                                compassionate future leaders.</p>
+                            <p class="card-desc">Indoor and outdoor sports facilities promote fitness, teamwork, discipline, leadership, and sportsmanship.</p>
                         </div>
                     </div>
                 </div>
@@ -453,7 +477,7 @@
             <h2 class="section-title">Moments That Inspire</h2>
         </div>
 
-        <div class="gallery-grid">
+        <div class="gallery-grid mt-4">
 
             <!-- Tall hero image: spans both rows in column 1 -->
             <div class="gallery-img tall" data-aos="fade-right">
