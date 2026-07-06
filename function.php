@@ -107,65 +107,6 @@ function template_header(){
 function template_footer(){
     echo <<< EOT
      <footer>
-        <section class="home-7">
-            <div class="row">
-                <div class="col-12 col-md-2 col-lg-2">
-                    <img src="Assets\Images\gallery-h-1.webp" alt="" class="img-fluid">
-                    <div class="overlay">
-                        <a href="gallery.php" class="btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
-                                viewBox="0 -960 960 960" width="24px" fill="#010f51">
-                                <path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z" />
-                            </svg></a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-2 col-lg-2">
-                    <img src="Assets\Images\gallery-h-2.webp" alt="" class="img-fluid">
-                    <div class="overlay">
-                        <a href="gallery.php" class="btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
-                                viewBox="0 -960 960 960" width="24px" fill="#010f51">
-                                <path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z" />
-                            </svg></a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-2 col-lg-2">
-                    <img src="Assets\Images\gallery-h-3.webp" alt="" class="img-fluid">
-                    <div class="overlay">
-                        <a href="gallery.php" class="btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
-                                viewBox="0 -960 960 960" width="24px" fill="#010f51">
-                                <path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z" />
-                            </svg></a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-2 col-lg-2">
-                    <img src="Assets\Images\gallery-h-4.webp" alt="" class="img-fluid">
-                    <div class="overlay">
-                        <a href="gallery.php" class="btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
-                                viewBox="0 -960 960 960" width="24px" fill="#010f51">
-                                <path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z" />
-                            </svg></a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-2 col-lg-2">
-                    <img src="Assets\Images\gallery-h-5.webp" alt="" class="img-fluid">
-                    <div class="overlay">
-                        <a href="gallery.php" class="btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
-                                viewBox="0 -960 960 960" width="24px" fill="#010f51">
-                                <path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z" />
-                            </svg></a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-2 col-lg-2">
-                    <img src="Assets\Images\gallery-h-6.webp" alt="" class="img-fluid">
-                    <div class="overlay">
-                        <a href="gallery.php" class="btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
-                                viewBox="0 -960 960 960" width="24px" fill="#010f51">
-                                <path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z" />
-                            </svg></a>
-                    </div>
-                </div>
-
-            </div>
-        </section>
         <div class="footer-main">
             <div class="container">
                 <div class="row">
@@ -195,7 +136,7 @@ function template_footer(){
                             <li class="list"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
                                     viewBox="0 -960 960 960" width="24px" fill="#E0E440">
                                     <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
-                                </svg><a href="academics.php">Academics</a></li>
+                                </svg><a href="academics-overview.php">Academics</a></li>
                             <li class="list"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
                                     viewBox="0 -960 960 960" width="24px" fill="#E0E440">
                                     <path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z" />
@@ -215,7 +156,7 @@ function template_footer(){
                             <h4 class="footer-heading">Our Location</h4>
                             <p class="text-white">Thandalam, Near Thiruporur, Off-OMR, Chennai - 603103</p>
                         </div>
-                        <div class="getintouch mt-5">
+                        <div class="     mt-5">
                             <h4 class="footer-heading">Get in touch</h4>
                             <ul class="contact">
                                 <li><i class="bi bi-envelope-fill"></i><a

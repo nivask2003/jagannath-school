@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 h1,
 h2,
@@ -6,7 +6,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Bricolage Grotesque", sans-serif;
+     font-family: "Manrope", sans-serif;
 }
 
 
@@ -16,14 +16,14 @@ body {
 }
 
 body {
-    font-family: "Manrope", sans-serif !important;
+    font-family: "Roboto", sans-serif !important;
 
 }
 
 span.badge {
     color: #73113d;
     font-size: 18px;
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Manrope", sans-serif;
     text-transform: uppercase;
 }
 
@@ -101,7 +101,7 @@ header .btn:hover {
 }
 
 header .main-header .navbar-brand img.img-fluid {
-    width: 258px;
+    width: 338px;
 }
 
 header .main-header a.nav-link {
@@ -165,49 +165,69 @@ header .navbar-toggler i{
 }
 
 .home-2 #content {
-    background-image: url(../Images/android-chrome-512x512.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
     position: relative;
+    overflow: hidden;
+    padding: 30px;
+    background: #fef8eb;
 }
 
-.home-2 #content:before {
-    content: "";
-    background-color: #ffffffcf;
-    height: 100%;
-    width: 100%;
+.home-2 #content .watermark-logo{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;          /* Change size */
+    opacity: 0.08;         /* Watermark opacity */
+    pointer-events: none;
+    user-select: none;
+    z-index: 0;
 }
 
-.home-2 .section-desc {
-    text-align: justify;
+.home-2 .section-desc,
+.home-2 .btn{
     position: relative;
-    z-index: 99;
-    color: #000;
+    z-index: 2;
 }
 
-.home-2 .btn {
-    position: relative;
-    z-index: 99;
-    background-color: #E52290;
-    border-radius: 20px;
-    color: #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: 600;
+.home-2 .section-desc { 
+    /* text-align: justify;  */
+    position: relative; 
+    z-index: 99; color: #000; 
+} 
+
+.home-2 .btn { 
+    position: relative; 
+    z-index: 99; 
+    background-color: #E52290; 
+    border-radius: 20px; 
+    color: #fff; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    font-weight: 600; 
 }
 
-.home-2 .btn:hover {
-    background-color: #E0E440;
-
+.home-2 .btn:hover { 
+    background-color: #E0E440; 
 }
 
 section.home-3 {
     background: #010f51;
     position: relative;
+}
+
+section.home-3::before{
+    content: "";
+    position: absolute;
+    background-image: url(../Images/waves-2-large.svg);
+    bottom: -84px;
+    height: 100px;
+    width: 100%;
+}
+
+.home-3 span.badge{
+    color: #E0E440;
 }
 
 .home-3 .card {
@@ -378,7 +398,7 @@ section.home-3 {
 }
 
 .home-5 {
-    background-image: linear-gradient(135deg, #05519fad, #232060), url(../Images/fac-bg.webp);
+    background-image: linear-gradient(135deg, #4f3f82b0, #4f3f82b0), url(../Images/fac-bg.webp);
 }
 
 .home-5 .section-title {
@@ -421,7 +441,7 @@ section.home-3 {
 }
 
 .admission-announcement {
-    background: #003b8f;
+    background: #5c082f;
     color: #fff;
     overflow: hidden;
     white-space: nowrap;
@@ -509,10 +529,144 @@ section.home-3 {
 
 }
 
+.home-7.py-5{
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+.home-7 {
+    background-color: #f2a60014;
+}
+
+/* ---------- Desktop layout (matches the reference image) ---------- */
+.home-7 .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 220px;
+    gap: 15px;
+    margin-top: 18px;
+}
+
+/* Hero image spans both rows in column 1 */
+.home-7 .gallery-grid .tall {
+    grid-row: 1 / 3;
+    
+}
+
+.home-7 .gallery-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.home-7 .gallery-img img.img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+}
+
+/* Overlay: opacity-based so it transitions smoothly and works on touch (below) */
+.home-7 .overlay {
+    background: #010f5178;
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.home-7 .gallery-img:hover .overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+@media (hover: none) {
+    .home-7 .overlay {
+        opacity: 1;
+        pointer-events: auto;
+        background: #010f5140;
+    }
+}
+
+.home-7 .overlay .icon-circle {
+    background-color: #fff;
+    width: clamp(44px, 6vw, 64px);
+    height: clamp(44px, 6vw, 64px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.home-7 .overlay .icon-circle svg {
+    width: clamp(18px, 3vw, 24px);
+    height: clamp(18px, 3vw, 24px);
+}
+
+.home-7 .overlay .icon-circle:hover {
+    cursor: pointer;
+}
+
+/* ---------- Tablet: collapse to 2 columns, hero spans full width ---------- */
+@media (max-width: 61.99em) {
+    .home-7 .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+    }
+
+    .home-7 .gallery-grid .tall {
+        grid-row: auto;
+        grid-column: 1 / -1;
+        height: 320px;
+    }
+}
+
+/* ---------- Mobile: single column, everything stacks ---------- */
+@media (max-width: 47.99em) {
+    .home-7 {
+        padding: 2rem 0;
+    }
+
+    .home-7 .gallery-grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 220px;
+        gap: 12px;
+    }
+
+    .home-7 .gallery-grid .tall {
+        grid-column: 1;
+        height: 260px;
+    }
+}
+
+/* ---------- Large desktop: a bit more breathing room ---------- */
+@media (min-width: 90em) {
+    .home-7 .gallery-grid {
+        grid-auto-rows: 260px;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 482px){
+    #image-2{
+        margin-top: 40px;
+    }
+}
+footer{
+    margin-top: 20px;
+}
+
 footer .col-12.col-md-2.col-lg-2 {
     padding: 0;
     position: relative;
 }
+
 
 footer .overlay {
     position: absolute;
@@ -545,6 +699,18 @@ footer .footer-main {
     background-color: #010f51;
     padding-top: 50px;
     padding-bottom: 50px;
+    position: relative;
+    
+}
+
+footer .footer-main::before{
+    content: "";
+    position: absolute;
+    background-image: url(../Images/waves-2-large.svg);
+    bottom: 332px;
+    height: 100px;
+    width: 100%;
+    transform: rotate(180deg);
 }
 
 footer .footer-main img.img-fluid {
@@ -654,12 +820,13 @@ footer .footer-bottom br {
     display: none;
 }
 
-.home-7{
+/* .home-7{
     display: none;
 }
 #home .home-7{
     display: block;
-}
+} */
+
 
 /* =====================================================
    RESPONSIVE STYLES
@@ -704,6 +871,7 @@ body {
     header #head-btn {
         justify-content: center;
         padding-top: 4px;
+        display: none;
     }
 
     header .main-header .navbar-brand img.img-fluid {
@@ -865,7 +1033,7 @@ body {
     }
 
     header .main-header .navbar-brand img.img-fluid {
-        width: 140px;
+        width: 286px;
     }
 
     .home-5 .fac-card .fac-heading {
@@ -914,7 +1082,7 @@ body {
     }
 
     header .main-header .navbar-brand img.img-fluid {
-        width: 236px;
+        width: 240px;
     }
 
     .home-5 .fac-card .fac-heading h4 {
@@ -939,9 +1107,9 @@ body {
         margin-top: 0px;
     }
 
-    .home-7 {
+    /* .home-7 {
         display: none !important;
-    }
+    } */
 
     footer .footer-bottom p {
         display: flex;
@@ -1751,7 +1919,7 @@ div#carouselExampleControls {
     }
 
     div#carouselExampleControls {
-        padding-bottom: 32px;
+        /* padding-bottom: 32px; */
     }
 
     .curr-3.py-5 {
@@ -2466,4 +2634,99 @@ div#carouselExampleControls {
     font-size:13px;
 }
 
+}
+
+/* Careeer Guidance Page */
+
+.career-1 .row {
+    margin-top: 20px !important;
+}
+
+/* ---------- Career page: tablets (<=991.98px) ---------- */
+@media (max-width: 991.98px) {
+
+.career-1 .row {
+    margin-top: 15px !important;
+}
+
+}
+
+/* ---------- Career page: mobile / phones (<=767.98px) ---------- */
+/* Fix: at this width the cards stack (col-12), but the shared
+   ".rules .content:first-child" rule zeroes out the top margin on every
+   card (each card is the only/first child of its Bootstrap column), so
+   the stacked cards end up touching with no gap between them. Space is
+   restored via margin-bottom on the column instead - this only applies
+   below 768px, so desktop layout is untouched. */
+@media (max-width: 767.98px) {
+
+.career-1 .row {
+    margin-top: 10px !important;
+}
+
+.career-1 .col-12.col-md-4.col-lg-4 {
+    margin-bottom: 20px;
+}
+
+.career-1 .row:last-of-type .col-12.col-md-4.col-lg-4:last-child {
+    margin-bottom: 0;
+}
+
+}
+
+/* ---------- Career page: small phones (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+
+.career-1 .col-12.col-md-4.col-lg-4 {
+    margin-bottom: 16px;
+}
+
+}
+
+/* ---------- Career page: extra small phones (<=400px) ---------- */
+@media (max-width: 400px) {
+
+.career-1 .col-12.col-md-4.col-lg-4 {
+    margin-bottom: 14px;
+}
+
+}
+
+@media (max-width: 482px){
+    .trust .box .section-desc{
+        text-align: left !important;
+    }
+
+    .trust .box .heading-center{
+        align-items: flex-start !important;
+    }
+
+    .trust .box .heading-center .section-title{
+        text-align: left;
+    }
+    section.home-2.py-5 {
+    padding-top: 0 !important;
+}
+}
+
+.footer-main .getintouch a:hover{   
+    color: #E4405F;
+}
+
+section.home-2.py-5 {
+    background: #f2a60014;
+}
+
+section.home-4.py-5 {
+    background: #73113d1a;
+}
+
+section.home-6.py-5 {
+    background: #fef8eb;
+}
+
+@media (max-width: 482px){
+    .about-1.py-5{
+        padding-top: 12px !important;
+    }
 }
