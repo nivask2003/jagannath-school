@@ -81,15 +81,10 @@
     <section class="home-2 py-5">
         <div class="container">
             <div class="row">
-                <!-- <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
-                    <img src="Assets/Images/about-img.webp" alt="" class="img-fluid">
-                </div> -->
-                <div class="col-12 col-md-12 col-lg-12 text-center" data-aos="fade-left">
-                    <span class="badge"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
-                            width="24px" fill="#FFFC0A">
-                            <path
-                                d="M281.5-281.5Q200-363 200-480t81.5-198.5Q363-760 480-760t198.5 81.5Q760-597 760-480t-81.5 198.5Q597-200 480-200t-198.5-81.5Z" />
-                        </svg>About Us</span>
+                <div class="col-12 col-md-12 col-lg-12" data-aos="fade-right">
+                    <img src="Assets/Images/about-img-1.webp" alt="" class="img-fluid">
+                </div>
+                <!-- <div class="col-12 col-md-12 col-lg-12 text-center" data-aos="fade-left">
                     <h2 class="section-title">Where Learning Inspires Success</h2>
                     <div id="content">
                         <img src="Assets/Images/android-chrome-512x512.png" alt="School Logo" class="watermark-logo">
@@ -106,7 +101,7 @@
                         <a href="about.php" class="btn">More About Us</a>
                     </div>
 
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -164,11 +159,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
-                    <span class="badge"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
-                            width="24px" fill="#FFFC0A">
-                            <path
-                                d="M281.5-281.5Q200-363 200-480t81.5-198.5Q363-760 480-760t198.5 81.5Q760-597 760-480t-81.5 198.5Q597-200 480-200t-198.5-81.5Z" />
-                        </svg>Academics</span>
                     <h2 class="section-title">Shaping Bright Academic Minds</h2>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 align-content-center" data-aos="fade-left">
@@ -296,12 +286,7 @@
     <section class="home-3 py-5">
         <div class="container">
             <div class="heading-center">
-                <span class="badge" data-aos="fade-up"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
-                        viewBox="0 -960 960 960" width="24px" fill="#FFFC0A">
-                        <path
-                            d="M281.5-281.5Q200-363 200-480t81.5-198.5Q363-760 480-760t198.5 81.5Q760-597 760-480t-81.5 198.5Q597-200 480-200t-198.5-81.5Z" />
-                    </svg>Facilities</span>
-                <h2 class="section-title text-white" data-aos="fade-up" data-aos-delay="100">Facilities That Inspire Growth</h2>
+                <h2 class="section-title text-white" data-aos="fade-up" data-aos-delay="100">Modern Campus Facilities</h2>
             </div>
             <div class="row mt-4">
                 <div class="col-12 col-md-4 col-lg-4">
@@ -468,12 +453,6 @@
    <section class="home-7 py-5">
     <div class="container">
         <div class="heading-center">
-            <span class="badge">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFC0A">
-                    <path d="M281.5-281.5Q200-363 200-480t81.5-198.5Q363-760 480-760t198.5 81.5Q760-597 760-480t-81.5 198.5Q597-200 480-200t-198.5-81.5Z" />
-                </svg>
-                Our Gallery
-            </span>
             <h2 class="section-title">Moments That Inspire</h2>
         </div>
 

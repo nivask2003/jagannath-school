@@ -154,7 +154,7 @@ function template_footer(){
                     <div class="col-12 col-md-3 col-lg-3">
                         <div class="location">
                             <h4 class="footer-heading">Our Location</h4>
-                            <p class="text-white">Thandalam, Near Thiruporur, Off-OMR, Chennai - 603103</p>
+                            <p class="text-white">Thandalam, Near Thiruporur, Off-OMR,<br>Chennai - 603103</p>
                         </div>
                         <div class="     mt-5">
                             <h4 class="footer-heading">Get in touch</h4>
@@ -178,8 +178,7 @@ function template_footer(){
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; Copyrights 2026 <br><a href="index.php">Jagannath Vidyalaya Matriculation Higher Secondary School</a><br>,All rights reserved.
-                Reserved.</p>
+            <p>&copy; Copyrights 2026 <br><a href="index.php">Jagannath Vidyalaya Matriculation Higher Secondary School,</a><br>All rights reserved.</p>
         </div>
 
     </footer>

@@ -17,6 +17,7 @@ body {
 
 body {
     font-family: "Roboto", sans-serif !important;
+    background-color: #f2a60014 !important;
 
 }
 
@@ -135,7 +136,11 @@ header .navbar-toggler i{
     transition: .3s;
 }
 
-.curr-2 .carousel-control-prev,
+header .main-header {
+    background: #fff;
+}
+
+.hero-section .carousel-control-next,
 .curr-2 .carousel-control-next {
     width: 55px;
     height: 55px;
@@ -168,7 +173,7 @@ header .navbar-toggler i{
     position: relative;
     overflow: hidden;
     padding: 30px;
-    background: #fef8eb;
+    /* background: #fef8eb; */
 }
 
 .home-2 #content .watermark-logo{
@@ -300,10 +305,6 @@ section.home-3::before{
     opacity: 1;
     max-height: 200px;
     transform: translateY(0);
-}
-
-.home-4-new{
-    background-color: #f2a60014;
 }
 
 .home-4-new .box .section-desc{
@@ -649,9 +650,6 @@ section.home-3::before{
     padding-bottom: 6rem !important;
 }
 
-.home-7 {
-    background-color: #f2a60014;
-}
 
 /* ---------- Desktop layout (matches the reference image) ---------- */
 .home-7 .gallery-grid {
@@ -1044,13 +1042,13 @@ body {
 
     .hero-section .carousel-control-prev,
     .hero-section .carousel-control-next {
-        width: 40px;
-        height: 40px;
+        width: 36px !important;
+        height: 36px !important;
     }
 
     .hero-section .carousel-control-prev-icon,
     .hero-section .carousel-control-next-icon {
-        background-size: 16px;
+        background-size: 12px;
     }
 
     .hero-section .carousel-control-prev {
@@ -1140,7 +1138,7 @@ body {
 /* ---------- Small phones (<=575.98px) ---------- */
 @media (max-width: 575.98px) {
     .section-title {
-        font-size: 24px;
+        font-size: 27px;
     }
 
     span.badge {
@@ -1193,7 +1191,9 @@ body {
 /* ---------- Extra small phones (<=400px) / high zoom levels ---------- */
 @media (max-width: 400px) {
     .section-title {
-        font-size: 21px;
+        font-size: 30px;
+        font-weight: 800 !important;
+        margin-bottom: 8px;
     }
 
     header .main-header .navbar-brand img.img-fluid {
@@ -1287,21 +1287,10 @@ body {
 }
 
 .contact-1 .contact-details {
-    background: #fff;
+    background: #c7d8344f;
     padding: 20px;
     border-radius: 20px;
     position: relative;
-}
-
-.contact-1 .contact-details:before{
-    content: "";
-    position: absolute;
-    background-color: #73113d1a;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 20px;
 }
 
 .contact-1 .contact-details h4{
@@ -1513,8 +1502,15 @@ body {
 }
 
 .facilities-1{
-    background-color: #fff !important;
     background-image: none !important;
+}
+
+.facilities-1 .row:nth-of-type(1){
+    margin-top: 0;
+}
+
+.facilities-1 .row{
+    margin-top: 20px;
 }
 
 
@@ -1584,10 +1580,11 @@ body {
 
 .about-2 .box .section-title{
     font-size: 40px !important;
+    margin-bottom: 8px;
 }
 
 .about-2 .box {
-    background: #010f511a;
+    background: #5c082f;
     padding: 20px;
     border-radius: 20px;
 }
@@ -1596,13 +1593,7 @@ body {
     background: #232060
 }
 
-.about-3 span.badge{
-    color: #E0E440;
-}
 
-.trust .section-desc{
-    text-align:center !important
-}
 
 /* Message Page */
 
@@ -1624,7 +1615,7 @@ body {
 }
 
 .message-1 .box {
-    background: #010f511a;
+    background: #c7d8344f;
     padding: 20px;
     border-radius: 20px;
 }
@@ -1717,7 +1708,7 @@ body {
 }
 
 .aca-over-1 .row > div:nth-child(2) .box{
-    background-color: #010f511a;
+    background-color: #c7d8344f;
     border: none;
 }
 
@@ -1879,7 +1870,7 @@ body {
 }
 
 .curr-2{
-    background-color: #010f511a;
+    background-color: #73113d2e;
 }
 
 .curr-2 h4.section-title {
@@ -1902,7 +1893,7 @@ div#carouselExampleControls {
 }
 
 .curr-2 .carousel-control-prev,
-.hero-section .carousel-control-next {
+.hero-section .carousel-control-prev {
     width: 55px;
     height: 55px;
     background-color: #E0E440;
@@ -1937,6 +1928,14 @@ div#carouselExampleControls {
 .curr-3 table thead{
     background-color: #010f51;
     color: #fff;
+}
+
+table.table.table-bordered.table-striped.align-middle {
+    background: #fff;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd){
+    background-color: #c7d8344f !important;
 }
 
 /* ---------- Curriculum page: large tablets / small laptops (<=1199.98px) ---------- */
@@ -2188,7 +2187,7 @@ div#carouselExampleControls {
 }
 
 .extra-1 .ext-card .card-body{
-    background: #010f511a;
+    background: #c7d8344f;
     padding: 20px;
     transition: all .4s ease;
 }
@@ -2337,8 +2336,8 @@ div#carouselExampleControls {
     font-size: 40px;
 }
 
-.admission-1 .box{
-    background-color: #010f511a;
+.admission-1 .box {
+    background-color: #c7d8344f;
     padding: 20px;
     border-radius: 20px;
 }
@@ -2539,7 +2538,7 @@ div#carouselExampleControls {
 /* Rules & Regulations */
 
 .rules{
-    background:#f8f9ff;
+    /* background:#f8f9ff; */
 }
 
 .rules .content{
@@ -2850,12 +2849,10 @@ div#carouselExampleControls {
     color: #E4405F;
 }
 
-section.home-2.py-5 {
-    background: #f2a60014;
-}
+
 
 section.home-4.py-5 {
-    background: #73113d1a;
+    background: #73113d2e;
 }
 
 section.home-6.py-5 {
@@ -2872,4 +2869,294 @@ section.home-6.py-5 {
     .home-2 p.section-desc{
         text-align: center;
     }
+
+    .home-4-new.py-5{
+        padding-top: 0rem !important;
+    }
+
+    .home-3 .card img.img-fluid{
+        border-radius: 0;
+    }
+}
+
+.about-1 img.img-fluid {
+    border-radius: 20px;
+}
+
+.about-1 a.btn {
+    background-color: #E52290;
+    border-radius: 20px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.about-1 a.btn:hover{
+    background-color: #E0E440;
+    color: #000;
+}
+
+.about-2 ul.icon-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.about-2 ul.icon-list .list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.about-2 img.img-fluid{
+    border-radius:  20px;
+}
+
+.about-3 .box{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    border: transparent;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.b1{
+    border: 1px solid #8158a5 !important;
+    border-top: 4px solid #8158a5!important;
+}
+.b2{
+    border: 1px solid #73113d !important;
+    border-top: 4px solid #74123e !important;
+}
+.b3{
+    border: 1px solid #E2E43D !important;
+    border-top: 4px solid #E2E43D !important;
+}
+
+.about-3 .box h4.section-title{
+    font-size: 40px;
+}
+
+.about-3 .icon-circle {
+    background-color: #E0E440;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.about-3 .box .box-section{
+    text-align: center;
+}
+
+.about-4{
+    background-color: #010f51;
+    position: relative;
+}
+
+.about-4::before{
+        content: "";
+    position: absolute;
+    background-image: url(../Images/waves-2-large.svg);
+    bottom: -84px;
+    height: 100px;
+    width: 100%;
+}
+
+.about-4 img.img-fluid {
+    border-radius: 20px;
+}
+
+.about-4 .box{
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 20px;
+}
+.about-4 .box .icon-cirlce {
+    background-color: #E0E440;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.about-4 .box h4{
+    font-weight: 700;
+    margin-top: 10px;
+}
+.home-6.py-5{
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+/* ===========================================================
+   About page: responsive scaling (large desktops >=1200px unchanged)
+   Covers: about-1 (intro), about-2/.trust (mission), about-3 (motto
+   cards), about-4 (history), and stacking gaps for every row that
+   collapses to a single column below the md (768px) breakpoint.
+   =========================================================== */
+
+/* ---------- Large tablets / small laptops (<=1199.98px) ---------- */
+@media (max-width: 1199.98px) {
+    .about-2 .box .section-title,
+    .about-3 .box h4.section-title {
+        font-size: 34px !important;
+    }
+
+    .about-2 .box,
+    .about-3 .box,
+    .about-4 .box {
+        padding: 18px;
+    }
+
+    .about-3 .icon-circle,
+    .about-4 .box .icon-cirlce {
+        width: 56px;
+        height: 56px;
+    }
+}
+
+/* ---------- Tablets (<=991.98px) ---------- */
+@media (max-width: 991.98px) {
+    .about-1.py-5 {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+
+    .about-2 .box .section-title,
+    .about-3 .box h4.section-title {
+        font-size: 28px !important;
+    }
+
+    .about-4 .box h4 {
+        margin-bottom: 6px;
+    }
+
+    /* about-1: intro image sits above the text once stacked */
+    .about-1 .row > .col-12.col-md-4.col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+    /* about-2/.trust: text sits above the image once stacked */
+    .about-2 .row > .col-12.col-md-6.col-lg-6:first-child {
+        margin-bottom: 24px;
+    }
+
+    /* about-3: the three motto/objective/leader cards stack */
+    .about-3 .col-12.col-md-4.col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+    .about-3 .row .col-12.col-md-4.col-lg-4:last-child {
+        margin-bottom: 0;
+    }
+
+    /* about-4: history image sits above the text once stacked */
+    .about-4 .row > .col-12.col-md-6.col-lg-6:first-child {
+        margin-bottom: 24px;
+    }
+
+    /* about-4: nested 2x2 highlight boxes stack with a gap */
+    .about-4 .row .row > .col-12.col-md-6.col-lg-6:first-child {
+        margin-bottom: 20px;
+    }
+}
+
+/* ---------- Mobile / phones (<=767.98px) ---------- */
+@media (max-width: 767.98px) {
+    .about-2.py-5,
+    .about-3.py-5,
+    .about-4.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .about-1 p.section-desc,
+    .about-2 p.section-desc {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .about-2 .box .section-title,
+    .about-3 .box h4.section-title {
+        font-size: 24px !important;
+    }
+
+    .about-2 .box {
+        padding: 16px;
+    }
+
+    .about-3 .icon-circle,
+    .about-4 .box .icon-cirlce {
+        width: 52px;
+        height: 52px;
+    }
+
+    .about-4 .row .row {
+        margin-top: 16px !important;
+    }
+}
+
+/* ---------- Small phones (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+    .about-2 .box .section-title,
+    .about-3 .box h4.section-title {
+        font-size: 22px !important;
+    }
+
+    .about-1 p.section-desc,
+    .about-2 p.section-desc,
+    .about-3 .box .box-section {
+        font-size: 14px;
+    }
+
+    .about-2 .box,
+    .about-3 .box,
+    .about-4 .box {
+        padding: 14px;
+    }
+
+    .about-3 .icon-circle,
+    .about-4 .box .icon-cirlce {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+/* ---------- Extra small phones (<=400px) / high zoom levels ---------- */
+@media (max-width: 400px) {
+    .about-2 .box .section-title,
+    .about-3 .box h4.section-title {
+        font-size: 20px !important;
+    }
+
+    .about-3 .icon-circle,
+    .about-4 .box .icon-cirlce {
+        width: 44px;
+        height: 44px;
+    }
+
+    .about-2 .row > .col-12.col-md-6.col-lg-6:first-child,
+    .about-4 .row > .col-12.col-md-6.col-lg-6:first-child {
+        margin-bottom: 18px;
+    }
+}
+
+@media(max-width: 482px){
+    .about-2 .row {
+    flex-direction: column-reverse;
+    gap: 10px;
+}
 }

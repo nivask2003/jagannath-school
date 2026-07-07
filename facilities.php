@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-12 col-lg-6">
                             <h3>Smart Classroom</h3>
-                            <p>Our smart classrooms create an interactive learning environment where technology enriches teaching and student participation. Digital tools, visual learning, and innovative methods improve understanding, encourage curiosity, and make every lesson engaging, effective, inspiring, and enjoyable.</p>
+                            <p>Our smart classrooms use technology to make learning interactive, engaging, enjoyable, and easy to understand for students.</p>
                         </div>
                     </div>
 
@@ -53,10 +53,7 @@
                         </div>
                         <div class="col-12 col-lg-6">
                             <h3>Science Lab</h3>
-                            <p>Our modern Science Laboratories offer practical learning in Physics, Chemistry, and
-                                Biology. Students perform safe, hands-on experiments that enhance scientific knowledge,
-                                critical thinking, observation skills, analytical abilities, and problem-solving while
-                                building confidence in scientific exploration.</p>
+                            <p>Our science labs provide hands-on learning through safe experiments that build scientific knowledge and critical thinking.</p>
                         </div>
                     </div>
 
@@ -73,10 +70,7 @@
                         </div>
                         <div class="col-12 col-lg-6">
                             <h3>Library</h3>
-                            <p>The school library is a vibrant learning hub that nurtures reading habits and independent
-                                learning. It offers a rich collection of books, journals, magazines, and reference
-                                materials across various subjects, providing a peaceful environment that encourages
-                                research, knowledge, and intellectual growth.</p>
+                            <p>Our library inspires reading and learning with books and resources that support research, knowledge, and academic growth.</p>
                         </div>
                     </div>
 
@@ -91,7 +85,7 @@
                         </div>
                         <div class="col-12 col-lg-6">
                             <h3>Computer Lab</h3>
-                            <p>Our Computer Laboratory features modern computers, high-speed internet, and updated software to support hands-on learning. Students gain practical knowledge in computer fundamentals, programming, digital literacy, and technology, building essential skills for academic and future career success.</p>
+                            <p>Our computer lab provides hands-on learning in programming, digital skills, and technology for future academic success.</p>
                         </div>
                     </div>
 
@@ -108,7 +102,7 @@
                         </div>
                         <div class="col-12 col-lg-6">
                             <h3>Transportation</h3>
-                            <p>Our school provides safe, reliable, and punctual transportation through a well-maintained fleet of buses covering major routes. Experienced drivers and trained support staff ensure a secure, comfortable journey, making daily travel convenient, dependable, and stress-free for every student.</p>
+                           <p>Our school transport provides safe, reliable, and comfortable travel with trained staff and well-maintained buses daily.</p>
                         </div>
                     </div>
 
@@ -123,7 +117,7 @@
                         </div>
                         <div class="col-12 col-lg-6">
                             <h3>Sports</h3>
-                            <p>Jagannath Vidyalaya encourages physical fitness through excellent indoor and outdoor sports facilities. Regular coaching, competitions, and athletic events help students develop fitness, discipline, teamwork, leadership, confidence, and a strong spirit of sportsmanship.</p>
+                            <p>Our sports facilities promote fitness, teamwork, discipline, leadership, confidence, and lifelong sportsmanship among students.</p>
                         </div>
                     </div>
 
