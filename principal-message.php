@@ -29,16 +29,16 @@
     <div class="message-1 py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right" data-aos-duration="1000">
                     <img src="Assets/Images/unknown-profile.webp" alt="" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-8 col-lg-8">
                     <div class="box">
-                        <h3 class="section-title">Mrs. M. Usha, MCA, MA, B.Ed.</h3>
-                        <p class="section-desc">Principal</p>
+                        <h3 class="section-title" data-aos="fade-down" data-aos-duration="1000">Mrs. M. Usha, MCA, MA, B.Ed.</h3>
+                        <p class="section-desc" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">Principal</p>
                         <hr>
-                        <p class="section-desc">It is my privilege to welcome you to Jagannath Vidyalaya Matriculation Higher Secondary School, where excellence, discipline, and values form the foundation of education. We believe every child possesses unique talents, and our mission is to nurture their potential through a safe, supportive, and inspiring learning environment. With experienced educators, innovative teaching methods, and student-centered learning, we encourage curiosity, creativity, critical thinking, and confidence while helping students achieve academic excellence and develop strong moral values.</p>
-                        <p class="section-desc">Beyond academics, we provide abundant opportunities in sports, cultural activities, leadership programmes, and community service to ensure the holistic development of every student. We believe that the partnership between parents, teachers, and students is the key to success, creating an atmosphere where every child feels valued, motivated, and empowered. Together, we strive to shape responsible, compassionate, and confident individuals who are prepared to face future challenges, contribute positively to society, and become lifelong learners and future leaders.</p>
+                        <p class="section-desc" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">It is my privilege to welcome you to Jagannath Vidyalaya Matriculation Higher Secondary School, where excellence, discipline, and values form the foundation of education. We believe every child possesses unique talents, and our mission is to nurture their potential through a safe, supportive, and inspiring learning environment. With experienced educators, innovative teaching methods, and student-centered learning, we encourage curiosity, creativity, critical thinking, and confidence while helping students achieve academic excellence and develop strong moral values.</p>
+                        <p class="section-desc" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Beyond academics, we provide abundant opportunities in sports, cultural activities, leadership programmes, and community service to ensure the holistic development of every student. We believe that the partnership between parents, teachers, and students is the key to success, creating an atmosphere where every child feels valued, motivated, and empowered. Together, we strive to shape responsible, compassionate, and confident individuals who are prepared to face future challenges, contribute positively to society, and become lifelong learners and future leaders.</p>
                     </div>
                 </div>
             </div>

@@ -108,7 +108,7 @@
     <section class="home-4-new py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
                     <div class="vision">
                         <div class="box">
                             <div class="icon-circle">
@@ -122,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up">
                     <div class="mission">
                         <div class="image">
                             <img src="Assets/Images/our-mission.webp" alt="" class="img-fluid">
@@ -137,7 +137,7 @@
                         
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left">
                     <div class="value">
                         <div class="box">
                             <div class="icon-circle">

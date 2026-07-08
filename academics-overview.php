@@ -24,12 +24,12 @@
 <body>
     <?=template_header()?>
     <div class="page-banner" id="academics">
-        <h1 class="page-title">Academics Overview</h1>
+        <h1 class="page-title" data-aos="fade-down">Academics Overview</h1>
     </div>
     <section class="aca-over-1 py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                     <h2 class="section-title">Academic Overview</h2>
                     <p class="section-desc">We shape curious, confident learners through a modern, student-first academic program. From smart classrooms to experiential projects and individual mentorship, every part of the day is designed to build deep understanding, character and readiness for what's next.</p>
                     <div class="row">
@@ -47,9 +47,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
                     <ul class="icon-list">
-                        <li class="list">
+                        <li class="list" data-aos="fade-up">
                             <div class="row">
                                 <div class="col-12 col-md-1 col-lg-1">
                                     <div class="icon-circle">
@@ -65,7 +65,7 @@
                             </div>
                             
                         </li>
-                        <li class="list">
+                        <li class="list" data-aos="fade-up" data-aos-delay="100">
                             <div class="row">
                                 <div class="col-12 col-md-1 col-lg-1">
                                     <div class="icon-circle">
@@ -81,7 +81,7 @@
                             </div>
                             
                         </li>
-                        <li class="list">
+                        <li class="list" data-aos="fade-up" data-aos-delay="200">
                             <div class="row">
                                 <div class="col-12 col-md-1 col-lg-1">
                                     <div class="icon-circle">
@@ -97,7 +97,7 @@
                             </div>
                             
                         </li>
-                        <li class="list">
+                        <li class="list" data-aos="fade-up" data-aos-delay="300">
                             <div class="row">
                                 <div class="col-12 col-md-1 col-lg-1">
                                     <div class="icon-circle">
@@ -196,7 +196,7 @@
     <div class="aca-over-2 py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                     <div class="image">
                         <img src="Assets/Images/teaching.webp" alt="" class="img-fluid">
                         <div class="icon-circle">
@@ -204,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 left">
+                <div class="col-12 col-md-6 col-lg-6 left" data-aos="fade-left">
                     <div class="content">
                         <h4 class="section-title">Teaching Methodology</h4>
                         <p class="section-desc">Inquiry-led classrooms where educators blend Socratic dialogue, project work, and digital tools so every learner discovers concepts on their own terms.</p>
@@ -213,13 +213,13 @@
             </div>
             <div class="row">
                 
-                <div class="col-12 col-md-6 col-lg-6 left">
+                <div class="col-12 col-md-6 col-lg-6 left" data-aos="fade-right">
                     <div class="content">
                         <h4 class="section-title">Assessment System</h4>
                         <p class="section-desc">Continuous, low-stakes assessment replaces one-shot exams — with rubrics, reflections, and progress conferences that keep growth visible.</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
                     <div class="image">
                         <img src="Assets\Images\assessment.webp" alt="" class="img-fluid">
                         <div class="icon-circle">
@@ -229,7 +229,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                     <div class="image">
                         <img src="Assets/Images/value.webp" alt="" class="img-fluid">
                         <div class="icon-circle">
@@ -237,7 +237,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 left">
+                <div class="col-12 col-md-6 col-lg-6 left" data-aos="fade-left">
                     <div class="content">
                         <h4 class="section-title">Value Education</h4>
                         <p class="section-desc">Empathy, integrity, and stewardship live inside every subject — anchored by service learning and mentor circles that shape character over years.</p>
@@ -246,13 +246,13 @@
             </div>
             <div class="row">
                 
-                <div class="col-12 col-md-6 col-lg-6 left">
+                <div class="col-12 col-md-6 col-lg-6 left" data-aos="fade-right">
                     <div class="content">
                         <h4 class="section-title">Academic Calendar</h4>
                         <p class="section-desc">A rhythmically planned year — of learning arcs, reflection weeks, and celebration days — so families, students, and teachers move forward together.</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-6 col-lg-6" data-aos="fade-left">
                     <div class="image">
                         <img src="Assets\Images\calendar.webp" alt="" class="img-fluid">
                         <div class="icon-circle">

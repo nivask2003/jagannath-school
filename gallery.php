@@ -29,7 +29,7 @@
     <section class="gallery-1 py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right" data-aos-delay="0">
                     <img src="Assets/Images/g-1.webp" class="img-fluid" alt="">
 
                     <div class="overlay">
@@ -45,7 +45,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <img src="Assets/Images/g-2.webp" class="img-fluid" alt="">
 
                     <div class="overlay">
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-delay="200">
                     <img src="Assets/Images/g-3.webp" class="img-fluid" alt="">
 
                     <div class="overlay">
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="row r-2">
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right" data-aos-delay="0">
                     <img src="Assets/Images/g-4.webp" class="img-fluid" alt="">
 
                     <div class="overlay">
@@ -95,7 +95,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-down" data-aos-delay="100">
                     <img src="Assets/Images/g-5.webp" class="img-fluid" alt="">
 
                     <div class="overlay">
@@ -111,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-delay="200">
                     <img src="Assets/Images/g-6.webp" class="img-fluid" alt="">
 
                     <div class="overlay">
@@ -129,7 +129,7 @@
                 </div>
             </div>
             <div class="row r-2">
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right" data-aos-delay="0">
                     <img src="Assets/Images/g-7.webp" class="img-fluid" alt="">
 
                     <div class="overlay">
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <img src="Assets/Images/g-8.webp" class="img-fluid" alt="">
 
                     <div class="overlay">
@@ -161,7 +161,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-delay="200">
                     <img src="Assets/Images/g-9.webp" class="img-fluid" alt="">
 
                     <div class="overlay">

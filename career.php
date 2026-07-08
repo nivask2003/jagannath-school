@@ -27,7 +27,7 @@
     <div class="page-banner" id="admission">
         <h1 class="page-title">Career Guidance</h1>
     </div>
-    <section class="career-1 py-5 rules">
+    <section class="career-1 py-5 deleted">
         <div class="container">
             <p class="section-desc">Our Career Guidance programme equips students with the knowledge and confidence
                 needed to make informed decisions about their future education and careers. Students receive continuous
