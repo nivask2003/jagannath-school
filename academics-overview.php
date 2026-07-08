@@ -30,41 +30,96 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6">
-                    <div class="box">
-                        <h3 class="section-title">Academics Overview</h3>
-                        <p class="section-desc">At Jagannath Vidyalaya Matriculation Higher Secondary School, academics are the foundation of our educational approach. We offer a well-structured curriculum that fosters conceptual understanding, critical thinking, creativity, and practical learning. Through experienced faculty, modern teaching methods, and value-based education, we help students achieve academic excellence while developing confidence, discipline, and lifelong learning skills, preparing them to become responsible, capable, and successful global citizens.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-6">
-                    <div class="box">
-                        <h3 class="section-title">Academics Highlights</h3>
-                        <div class="row">
-                            <div class="col-12 col-md-6 col-lg-6">
-                                <ul class="icon-list">
-                                    <li class="list"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#010f51"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>Student-Centric Learning</li>
-                                    <li class="list"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#010f51"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>Experiential Education</li>
-                                    <li class="list"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#010f51"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>Smart Classrooms</li>
-                                    <li class="list"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#010f51"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>Individual Attention</li>
-                                    
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-6">
-                                <ul class="icon-list">
-                                    <li class="list"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#010f51"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>Academic Monitoring</li>
-                                    <li class="list"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#010f51"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>Conceptual Understanding</li>
-                                    <li class="list"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#010f51"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>Exam Readiness</li>
-                                    <li class="list"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#010f51"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>Holistic Development</li>
-                                </ul>
-                            </div>
+                    <h2 class="section-title">Academic Overview</h2>
+                    <p class="section-desc">We shape curious, confident learners through a modern, student-first academic program. From smart classrooms to experiential projects and individual mentorship, every part of the day is designed to build deep understanding, character and readiness for what's next.</p>
+                    <div class="row">
+                        <div class="col-4 col-md-4 col-lg-4">
+                            <h4>1:12</h4>
+                            <p class="label">Mentor Ratio</p>
+                        </div>
+                        <div class="col-4 col-md-4 col-lg-4">
+                            <h4>40+</h4>
+                            <p class="label">Enrichment Programs</p>
+                        </div>
+                        <div class="col-4 col-md-4 col-lg-4">
+                            <h4>98%</h4>
+                            <p class="label">Board Distinction</p>
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <ul class="icon-list">
+                        <li class="list">
+                            <div class="row">
+                                <div class="col-12 col-md-1 col-lg-1">
+                                    <div class="icon-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-9">
+                                    <div class="content">
+                                        <h5>Student-Centric Learning</h5>
+                                        <p>Personalized learning that encourages curiosity, confidence, and academic excellence.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li class="list">
+                            <div class="row">
+                                <div class="col-12 col-md-1 col-lg-1">
+                                    <div class="icon-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-9">
+                                    <div class="content">
+                                        <h5>Smart Education</h5>
+                                        <p>Smart classrooms, practical learning, and modern teaching methods create engaging experiences.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li class="list">
+                            <div class="row">
+                                <div class="col-12 col-md-1 col-lg-1">
+                                    <div class="icon-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-9">
+                                    <div class="content">
+                                        <h5>Academic Excellence</h5>
+                                        <p>Continuous assessments, conceptual learning, and exam preparation ensure outstanding results.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li class="list">
+                            <div class="row">
+                                <div class="col-12 col-md-1 col-lg-1">
+                                    <div class="icon-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-9">
+                                    <div class="content">
+                                        <h5>Holistic Growth</h5>
+                                        <p>Leadership, values, communication, teamwork, and personality development prepare future-ready students.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </li>
+                    </ul>
+                </div>
             </div>
-            
         </div>
     </section>
 
-    <section class="home-5 py-5 facilities-1 aca-over-2">
+    <!-- <section class="home-5 py-5 facilities-1 aca-over-2">
         <div class="container">
             <div class="heading-center">
                 <span class="badge"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFC0A"><path d="M281.5-281.5Q200-363 200-480t81.5-198.5Q363-760 480-760t198.5 81.5Q760-597 760-480t-81.5 198.5Q597-200 480-200t-198.5-81.5Z"/></svg>Academic Excellence</span>
@@ -136,7 +191,78 @@
             </div>
             
         </div>
-    </section>
+    </section> -->
+
+    <div class="aca-over-2 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="image">
+                        <img src="Assets/Images/teaching.webp" alt="" class="img-fluid">
+                        <div class="icon-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="M840-280v-276L480-360 40-600l440-240 440 240v320h-80ZM480-120 200-272v-200l280 152 280-152v200L480-120Z"/></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 left">
+                    <div class="content">
+                        <h4 class="section-title">Teaching Methodology</h4>
+                        <p class="section-desc">Inquiry-led classrooms where educators blend Socratic dialogue, project work, and digital tools so every learner discovers concepts on their own terms.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-12 col-md-6 col-lg-6 left">
+                    <div class="content">
+                        <h4 class="section-title">Assessment System</h4>
+                        <p class="section-desc">Continuous, low-stakes assessment replaces one-shot exams — with rubrics, reflections, and progress conferences that keep growth visible.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="image">
+                        <img src="Assets\Images\assessment.webp" alt="" class="img-fluid">
+                        <div class="icon-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="M657-121 544-234l56-56 57 57 127-127 56 56-183 183Zm-537 1v-80h360v80H120Zm0-160v-80h360v80H120Zm0-160v-80h720v80H120Zm0-160v-80h720v80H120Zm0-160v-80h720v80H120Z"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="image">
+                        <img src="Assets/Images/value.webp" alt="" class="img-fluid">
+                        <div class="icon-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="M280-159v-361h64q7 0 14 1.5t14 3.5l277 103q14 5 22.5 18t8.5 27q0 21-14.5 34T632-320H527q-5 0-7.5-.5T513-323l-64-25-13 39 77 27q2 1 6 1.5t7 .5h274q32 0 56 23t24 57L561-80l-281-79ZM40-80v-440h160v440H40Zm600-360L474-602q-31-30-52.5-66.5T400-748q0-55 38.5-93.5T532-880q32 0 60 13.5t48 36.5q20-23 48-36.5t60-13.5q55 0 93.5 38.5T880-748q0 43-21 79.5T807-602L640-440Z"/></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 left">
+                    <div class="content">
+                        <h4 class="section-title">Value Education</h4>
+                        <p class="section-desc">Empathy, integrity, and stewardship live inside every subject — anchored by service learning and mentor circles that shape character over years.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-12 col-md-6 col-lg-6 left">
+                    <div class="content">
+                        <h4 class="section-title">Academic Calendar</h4>
+                        <p class="section-desc">A rhythmically planned year — of learning arcs, reflection weeks, and celebration days — so families, students, and teachers move forward together.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="image">
+                        <img src="Assets\Images\calendar.webp" alt="" class="img-fluid">
+                        <div class="icon-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="M657-121 544-234l56-56 57 57 127-127 56 56-183 183Zm-537 1v-80h360v80H120Zm0-160v-80h360v80H120Zm0-160v-80h720v80H120Zm0-160v-80h720v80H120Zm0-160v-80h720v80H120Z"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
 
 

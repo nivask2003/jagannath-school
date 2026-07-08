@@ -26,107 +26,80 @@
     <div class="page-banner" id="facilities">
         <h1 class="page-title">Facilities</h1>
     </div>
-    <section class="home-5 py-5 facilities-1">
+    <section class="facilities-1 py-5">
         <div class="container">
-            <div class="row mt-3">
-                <div class="col-12 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <div class="fac-card">
-                                <img src="Assets/Images/smart-classroom.webp" alt="" class="img-fluid">
-                            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right" data-aos-duration="800">
+                    <div class="box b1">
+                        <div class="image">
+                            <img src="Assets/Images/smart-classroom.webp" alt="" class="img-fluid">
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <h3>Smart Classroom</h3>
-                            <p>Our smart classrooms use technology to make learning interactive, engaging, enjoyable, and easy to understand for students.</p>
+                        <div class="content">
+                            <h4 class="section-title">Smart Classroom</h4>
+                            <p class="section-desc">Smart classrooms use modern technology to make learning interactive, engaging, effective, and easy to understand.</p>
                         </div>
                     </div>
-
-
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade-left">
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <div class="fac-card">
-                                <img src="Assets\Images\bio-lab.webp" alt="" class="img-fluid">
-                            </div>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="800">
+                    <div class="box b2">
+                        <div class="image">
+                            <img src="Assets/Images/bio-lab.webp" alt="" class="img-fluid">
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <h3>Science Lab</h3>
-                            <p>Our science labs provide hands-on learning through safe experiments that build scientific knowledge and critical thinking.</p>
+                        <div class="content">
+                            <h4 class="section-title">Science Lab</h4>
+                            <p class="section-desc">Science laboratories provide practical learning through safe experiments that build scientific and analytical skills.</p>
                         </div>
                     </div>
-
-
+                </div>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-duration="800">
+                    <div class="box b3">
+                        <div class="image">
+                            <img src="Assets/Images/library.webp" alt="" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <h4 class="section-title">Library</h4>
+                            <p class="section-desc">Our library offers books and learning resources that encourage reading, research, knowledge, and lifelong learning.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="100">
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <div class="fac-card">
-                                <img src="Assets\Images\library.webp" alt="" class="img-fluid">
-                            </div>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right" data-aos-duration="800">
+                    <div class="box b3">
+                        <div class="image">
+                            <img src="Assets\Images\computer-lab.webp" alt="" class="img-fluid">
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <h3>Library</h3>
-                            <p>Our library inspires reading and learning with books and resources that support research, knowledge, and academic growth.</p>
+                        <div class="content">
+                            <h4 class="section-title">Computer Lab</h4>
+                            <p class="section-desc">Our computer lab equips students with digital skills through hands-on learning, programming, and modern technology.</p>
                         </div>
                     </div>
-
-
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade-left" data-aos-delay="100">
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <div class="fac-card">
-                                <img src="Assets\Images\computer-lab.webp" alt="" class="img-fluid">
-                            </div>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-down" data-aos-duration="800">
+                    <div class="box b1">
+                        <div class="image">
+                            <img src="Assets\Images\transport.webp" alt="" class="img-fluid">
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <h3>Computer Lab</h3>
-                            <p>Our computer lab provides hands-on learning in programming, digital skills, and technology for future academic success.</p>
+                        <div class="content">
+                            <h4 class="section-title">Transportation</h4>
+                            <p class="section-desc">Our safe and reliable school transport ensures comfortable, punctual, and secure travel for every student.</p>
                         </div>
                     </div>
-
-
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="150">
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <div class="fac-card">
-                                <img src="Assets\Images\transport.webp" alt="" class="img-fluid">
-                            </div>
+                <div class="col-12 col-md-4 col-lg-4" data-aos="fade-left" data-aos-duration="800">
+                    <div class="box b2">
+                        <div class="image">
+                            <img src="Assets\Images\sports.webp" alt="" class="img-fluid">
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <h3>Transportation</h3>
-                           <p>Our school transport provides safe, reliable, and comfortable travel with trained staff and well-maintained buses daily.</p>
+                        <div class="content">
+                            <h4 class="section-title">Sports</h4>
+                            <p class="section-desc">Indoor and outdoor sports facilities promote fitness, teamwork, discipline, leadership, and sportsmanship.</p>
                         </div>
                     </div>
-
-
-                </div>
-                <div class="col-12 col-md-6 col-lg-6 mb-4 mb-lg-0" data-aos="fade-left" data-aos-delay="150">
-                    <div class="row">
-                        <div class="col-12 col-lg-6">
-                            <div class="fac-card">
-                                <img src="Assets\Images\sports.webp" alt="" class="img-fluid">
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <h3>Sports</h3>
-                            <p>Our sports facilities promote fitness, teamwork, discipline, leadership, confidence, and lifelong sportsmanship among students.</p>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
         </div>
     </section>
-
 
 
     <?=template_footer()?>

@@ -1501,20 +1501,20 @@ body {
     background-size: cover;
 }
 
-.facilities-1{
+.deleted{
     background-image: none !important;
 }
 
-.facilities-1 .row:nth-of-type(1){
+.deleted .row:nth-of-type(1){
     margin-top: 0;
 }
 
-.facilities-1 .row{
+.deleted .row{
     margin-top: 20px;
 }
 
 
-.facilities-1 p {
+.deleted p {
     text-align: justify;
 }
 
@@ -1523,34 +1523,34 @@ body {
    below the lg breakpoint (992px), so this only affects tablet/mobile/zoomed-in
    views. Desktop (>=992px, 100% zoom) layout is unchanged. */
 @media (max-width: 991.98px) {
-    .facilities-1 .fac-card {
+    .deleted .fac-card {
         margin-bottom: 16px;
     }
 
-    .facilities-1 h3 {
+    .deleted h3 {
         margin-top: 4px;
     }
 }
 
 /* ---------- Tablets (<=767.98px) ---------- */
 @media (max-width: 767.98px) {
-    .facilities-1 h3 {
+    .deleted h3 {
         font-size: 20px;
     }
 
-    .facilities-1 p {
+    .deleted p {
         font-size: 15px;
     }
 }
 
 /* ---------- Small phones / high zoom (<=575.98px) ---------- */
 @media (max-width: 575.98px) {
-    .facilities-1 p {
+    .deleted p {
         /* Justified text creates uneven, hard-to-read gaps on narrow columns */
         text-align: left;
     }
 
-    .home-5.facilities-1 {
+    .home-5.deleted {
         padding-top: 2rem !important;
         padding-bottom: 2rem !important;
     }
@@ -1558,11 +1558,11 @@ body {
 
 /* ---------- Extra small phones / very high zoom (<=400px) ---------- */
 @media (max-width: 400px) {
-    .facilities-1 h3 {
+    .deleted h3 {
         font-size: 18px;
     }
 
-    .facilities-1 p {
+    .deleted p {
         font-size: 14px;
     }
 }
@@ -1693,32 +1693,32 @@ body {
     background-size: cover;
 }
 
-.aca-over-1 h3.section-title {
+.deleted h3.section-title {
     font-size: 40px;
 }
 
-.aca-over-1 .box {
+.deleted .box {
     border: 2px solid #232060;
     padding: 20px;
     border-radius: 20px;
 }
 
-.aca-over-1 .box p.section-desc {
+.deleted .box p.section-desc {
     text-align: justify;
 }
 
-.aca-over-1 .row > div:nth-child(2) .box{
+.deleted .row > div:nth-child(2) .box{
     background-color: #c7d8344f;
     border: none;
 }
 
-.aca-over-1 ul.icon-list {
+.deleted ul.icon-list {
     padding: 0;
     list-style-type: none;
     margin-top: 20px;
 }
 
-.aca-over-1 li.list {
+.deleted li.list {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -1727,112 +1727,112 @@ body {
     font-size: 16px;
 }
 
-.aca-over-2 span.badge{
+.deleted span.badge{
     color: #73113d;
 }
 
-.aca-over-2 .section-title{
+.deleted .section-title{
     color: #010f51 !important;
 }
 
 /* ---------- Academics Overview: large tablets / small laptops (<=1199.98px) ---------- */
 @media (max-width: 1199.98px) {
-    .aca-over-1 h3.section-title {
+    .deleted h3.section-title {
         font-size: 32px;
     }
 }
 
 /* ---------- Academics Overview: tablets (<=991.98px) ---------- */
 @media (max-width: 991.98px) {
-    .aca-over-1 h3.section-title {
+    .deleted h3.section-title {
         font-size: 28px;
     }
 
-    .aca-over-1 .box {
+    .deleted .box {
         padding: 16px;
     }
 }
 
 /* ---------- Academics Overview: mobile / phones (<=767.98px) ---------- */
 @media (max-width: 767.98px) {
-    .aca-over-1 h3.section-title {
+    .deleted h3.section-title {
         font-size: 24px;
     }
 
     /* Overview / Highlights boxes stack (col-12) below md; give them breathing room */
-    .aca-over-1 .row > div.col-12 {
+    .deleted .row > div.col-12 {
         margin-bottom: 16px;
     }
 
-    .aca-over-1 .row > div.col-12:last-child {
+    .deleted .row > div.col-12:last-child {
         margin-bottom: 0;
     }
 
-    .aca-over-1 .box p.section-desc {
+    .deleted .box p.section-desc {
         text-align: left;
         font-size: 15px;
     }
 
-    .aca-over-1 li.list {
+    .deleted li.list {
         font-size: 15px;
         gap: 8px;
         margin-bottom: 8px;
     }
 
-    .aca-over-1 li.list svg {
+    .deleted li.list svg {
         width: 24px;
         height: 24px;
         flex-shrink: 0;
     }
 
     /* The two icon-list columns inside the Highlights box stack below md */
-    .aca-over-1 .row > div:nth-child(2) .box .row > div.col-12:last-child {
+    .deleted .row > div:nth-child(2) .box .row > div.col-12:last-child {
         margin-top: -35px;
     }
 }
 
 /* ---------- Academics Overview: small phones (<=575.98px) ---------- */
 @media (max-width: 575.98px) {
-    .aca-over-1 h3.section-title {
+    .deleted h3.section-title {
         font-size: 20px;
     }
 
-    .aca-over-1 .box {
+    .deleted .box {
         padding: 14px;
     }
 
-    .aca-over-1 ul.icon-list {
+    .deleted ul.icon-list {
         margin-top: 12px;
     }
 
-    .aca-over-1 li.list {
+    .deleted li.list {
         font-size: 14px;
     }
 }
 
 /* ---------- Academics Overview: extra small phones / very high zoom (<=400px) ---------- */
 @media (max-width: 400px) {
-    .aca-over-1 h3.section-title {
+    .deleted h3.section-title {
         font-size: 18px;
     }
 
-    .aca-over-1 .box {
+    .deleted .box {
         padding: 12px;
     }
 
-    .aca-over-1 li.list {
+    .deleted li.list {
         font-size: 13px;
         gap: 6px;
     }
 
-    .aca-over-1 li.list svg {
+    .deleted li.list svg {
         width: 20px;
         height: 20px;
     }
 }
 
 @media (max-width:482px){
-    .aca-over-1 .row > div:nth-child(2) .box{
+    .deleted .row > div:nth-child(2) .box{
         margin-top: 10px;
     }
     .home-3 .card:hover .card-heading {
@@ -2309,15 +2309,15 @@ table.table.table-bordered.table-striped.align-middle {
     background-size: cover;
 }
 
-.admission-1 p.section-desc {
+.deleted p.section-desc {
     text-align: justify;
 }
 
-.admission-1 img.img-fluid {
+.deleted img.img-fluid {
     border-radius: 20px;
 }
 
-.admission-1 .icon-circle {
+.deleted .icon-circle {
     background-color: #E0E440;
     width: 64px;
     height: 64px;
@@ -2327,44 +2327,44 @@ table.table.table-bordered.table-striped.align-middle {
     border-radius: 20px;
 }
 
-.admission-1 .icon-box {
+.deleted .icon-box {
     display: flex;
     gap: 10px;
 }
 
-.admission-1 h4.section-title {
+.deleted h4.section-title {
     font-size: 40px;
 }
 
-.admission-1 .box {
+.deleted .box {
     background-color: #c7d8344f;
     padding: 20px;
     border-radius: 20px;
 }
 
-.admission-1 .box:hover{
+.deleted .box:hover{
     border: 2px solid #010f51;
 }
 
-.admission-1 .box h4{
+.deleted .box h4{
     color: #010f51;
 }
 
-.admission-1 .box:nth-of-type(2), .admission-1 .box:nth-of-type(3){
+.deleted .box:nth-of-type(2), .deleted .box:nth-of-type(3){
     margin-top: 10px;
 }
 
-.admission-1 .row:nth-of-type(2){
+.deleted .row:nth-of-type(2){
     margin-top: 24px;
 }
 
-.admission-1 .box ul.icon-list {
+.deleted .box ul.icon-list {
     padding: 0;
     list-style-type: none;
     margin-top: 10px;
 }
 
-.admission-1 li.list {
+.deleted li.list {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -2377,30 +2377,30 @@ table.table.table-bordered.table-striped.align-middle {
 
 /* ---------- Admission page: large tablets / small laptops (<=1199.98px) ---------- */
 @media (max-width: 1199.98px) {
-    .admission-1 .section-title {
+    .deleted .section-title {
         font-size: 38px;
     }
 
-    .admission-1 h4.section-title {
+    .deleted h4.section-title {
         font-size: 34px;
     }
 }
 
 /* ---------- Admission page: tablets (<=991.98px) ---------- */
 @media (max-width: 991.98px) {
-    .admission-1 .section-title {
+    .deleted .section-title {
         font-size: 32px;
     }
 
-    .admission-1 h4.section-title {
+    .deleted h4.section-title {
         font-size: 28px;
     }
 
-    .admission-1 .box h4 {
+    .deleted .box h4 {
         font-size: 20px;
     }
 
-    .admission-1 .box {
+    .deleted .box {
         padding: 16px;
     }
 }
@@ -2410,58 +2410,58 @@ table.table.table-bordered.table-striped.align-middle {
    columns here, so each column needs its own bottom spacing instead of
    relying on row gutters. */
 @media (max-width: 767.98px) {
-    .admission-1.py-5,
+    .deleted.py-5,
     .admission-2.py-5 {
         padding-top: 2.5rem !important;
         padding-bottom: 2.5rem !important;
     }
 
-    .admission-1 .section-title,
+    .deleted .section-title,
     .admission-2 .section-title {
         font-size: 26px;
     }
 
-    .admission-1 p.section-desc {
+    .deleted p.section-desc {
         text-align: left;
         font-size: 15px;
     }
 
-    .admission-1 .row:nth-of-type(1) > .col-12.col-md-4.col-lg-4 {
+    .deleted .row:nth-of-type(1) > .col-12.col-md-4.col-lg-4 {
         margin-bottom: 20px;
     }
 
-    .admission-1 .row:nth-of-type(2) {
+    .deleted .row:nth-of-type(2) {
         margin-top: 4px;
     }
 
-    .admission-1 .row:nth-of-type(2) > .col-12.col-md-6.col-lg-6:first-child .box {
+    .deleted .row:nth-of-type(2) > .col-12.col-md-6.col-lg-6:first-child .box {
         margin-bottom: 20px;
     }
 
-    .admission-1 .box {
+    .deleted .box {
         padding: 16px;
     }
 
-    .admission-1 .box:nth-of-type(2),
-    .admission-1 .box:nth-of-type(3) {
+    .deleted .box:nth-of-type(2),
+    .deleted .box:nth-of-type(3) {
         margin-top: 12px;
     }
 
-    .admission-1 .box h4 {
+    .deleted .box h4 {
         font-size: 19px;
     }
 
-    .admission-1 .icon-circle {
+    .deleted .icon-circle {
         width: 52px;
         height: 52px;
     }
 
-    .admission-1 li.list {
+    .deleted li.list {
         font-size: 14px;
         align-items: flex-start;
     }
 
-    .admission-1 li.list svg {
+    .deleted li.list svg {
         flex-shrink: 0;
         width: 24px;
         height: 24px;
@@ -2470,20 +2470,20 @@ table.table.table-bordered.table-striped.align-middle {
 
 /* ---------- Admission page: small phones (<=575.98px) ---------- */
 @media (max-width: 575.98px) {
-    .admission-1 .section-title,
+    .deleted .section-title,
     .admission-2 .section-title {
         font-size: 22px;
     }
 
-    .admission-1 .box h4 {
+    .deleted .box h4 {
         font-size: 18px;
     }
 
-    .admission-1 li.list {
+    .deleted li.list {
         font-size: 13px;
     }
 
-    .admission-1 li.list svg {
+    .deleted li.list svg {
         width: 22px;
         height: 22px;
     }
@@ -2503,29 +2503,29 @@ table.table.table-bordered.table-striped.align-middle {
 
 /* ---------- Admission page: extra small phones / very high zoom (<=400px) ---------- */
 @media (max-width: 400px) {
-    .admission-1 .section-title,
+    .deleted .section-title,
     .admission-2 .section-title {
         font-size: 19px;
     }
 
-    .admission-1 span.badge,
+    .deleted span.badge,
     .admission-2 span.badge {
         font-size: 15px;
     }
 
-    .admission-1 .box h4 {
+    .deleted .box h4 {
         font-size: 16px;
     }
 
-    .admission-1 .box {
+    .deleted .box {
         padding: 14px;
     }
 
-    .admission-1 li.list {
+    .deleted li.list {
         font-size: 12px;
     }
 
-    .admission-1 li.list svg {
+    .deleted li.list svg {
         width: 20px;
         height: 20px;
     }
@@ -3159,4 +3159,744 @@ section.home-6.py-5 {
     flex-direction: column-reverse;
     gap: 10px;
 }
+}
+
+.aca-over-1 h4{
+    font-weight: 700;
+    font-size: 40px;
+    color: #010f51;
+}
+
+.aca-over-1 .row .label{
+    color: #E4405F;
+}
+
+.aca-over-1 .icon-circle {
+    background-color: #E0E440;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.aca-over-1 ul.icon-list {
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+}
+
+.aca-over-1 ul.icon-list::before{
+    content: "";
+    position: absolute;
+    border-left: 2px solid #010f51;
+    height: 100%;
+    top: 0;
+    left: 20px;
+    z-index: -1;
+}
+
+.aca-over-1 .icon-list .list .content h5{
+    font-weight: 700;
+}
+
+.aca-over-2{
+    background-color: #73113d2e;
+}
+
+.aca-over-2 .image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: transform 0.7s cubic-bezier(.22,1,.36,1),box-shadow .7s;
+    
+}
+
+.aca-over-2 .image:hover img.img-fluid{
+        transform: scale(1.08);
+    box-shadow: 0 40px 80px -30px #010f5173;
+}
+
+.aca-over-2 .row:nth-of-type(odd) img.img-fluid{
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
+}
+
+.aca-over-2 .row img.img-fluid{
+    height: 320px;
+    width: 320px;
+        border-radius: 30% 70% 30% 70% / 30% 30% 70% 70%;
+    
+}
+
+.aca-over-2 .image .icon-circle {
+       background-color: #E0E440;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 92px;
+    transition: transform .5s cubic-bezier(.22,1,.36,1);
+}
+
+.aca-over-2 .image:hover .icon-circle{
+    transform: rotate(-18deg);
+}
+
+.aca-over-2 .content h4.section-title{
+    font-size: 40px;
+}
+
+.aca-over-2 .left{
+    display: flex;
+    align-items: center;
+}
+
+.aca-over-2 .row:nth-of-type(even) .left .section-title,
+.aca-over-2 .row:nth-of-type(even) .left .section-desc{
+    text-align: right;
+}
+
+/* =========================================================
+   Academics Overview page — responsive breakpoints
+   (desktop / >1199.98px rules above are left untouched)
+   ========================================================= */
+
+/* ---------- Large tablets / small laptops (<=1199.98px) ---------- */
+@media (max-width: 1199.98px) {
+    .aca-over-1 h4 {
+        font-size: 34px;
+    }
+
+    .aca-over-2 .content h4.section-title {
+        font-size: 34px;
+    }
+
+    .aca-over-2 .row img.img-fluid {
+        width: 260px;
+        height: 260px;
+    }
+
+    .aca-over-2 .image .icon-circle {
+        width: 56px;
+        height: 56px;
+        right: 76px;
+    }
+}
+
+/* ---------- Tablets (<=991.98px) ---------- */
+@media (max-width: 991.98px) {
+    .aca-over-1 h4 {
+        font-size: 30px;
+    }
+
+    .aca-over-1 .icon-circle {
+        width: 36px;
+        height: 36px;
+    }
+
+    .aca-over-2 .content h4.section-title {
+        font-size: 30px;
+    }
+
+    .aca-over-2 .row img.img-fluid {
+        width: 220px;
+        height: 220px;
+    }
+
+    .aca-over-2 .image .icon-circle {
+        width: 50px;
+        height: 50px;
+        right: 64px;
+    }
+}
+
+/* ---------- Mobile / phones (<=767.98px) ---------- */
+@media (max-width: 767.98px) {
+    .aca-over-1.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .aca-over-1 h4 {
+        font-size: 26px;
+    }
+
+    .aca-over-1 .row .label {
+        font-size: 14px;
+    }
+
+    .aca-over-1 .row > .col-12.col-md-6.col-lg-6:first-child {
+        margin-bottom: 24px;
+    }
+
+    /* Keep the icon and its text side-by-side instead of stacking,
+       since the col-md-1 / col-md-9 split only applies at md and up */
+    .aca-over-1 .icon-list .list .row {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        gap: 14px;
+    }
+
+    .aca-over-1 .icon-list .list .row > .col-12:first-child {
+        flex: 0 0 auto;
+        width: auto;
+        max-width: none;
+    }
+
+    .aca-over-1 .icon-list .list .row > .col-12:nth-child(2) {
+        flex: 1 1 auto;
+        width: auto;
+        max-width: none;
+    }
+
+    .aca-over-1 .icon-list .list {
+        margin-bottom: 20px;
+    }
+
+    .aca-over-2.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .aca-over-2 .content h4.section-title {
+        font-size: 26px;
+    }
+
+    .aca-over-2 .content p.section-desc {
+        font-size: 15px;
+    }
+
+    .aca-over-2 .left {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    /* Once the columns stack, alternating right-alignment reads oddly
+       against a full-width image, so left-align everywhere */
+    .aca-over-2 .row:nth-of-type(even) .left .section-title,
+    .aca-over-2 .row:nth-of-type(even) .left .section-desc {
+        text-align: left;
+    }
+
+    .aca-over-2 .row img.img-fluid {
+        width: 200px;
+        height: 200px;
+    }
+
+    .aca-over-2 .image .icon-circle {
+        width: 44px;
+        height: 44px;
+        right: 56px;
+    }
+}
+
+/* ---------- Small phones (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+    .aca-over-1 h4 {
+        font-size: 22px;
+    }
+
+    .aca-over-1 .icon-circle {
+        width: 32px;
+        height: 32px;
+    }
+
+    .aca-over-1 .icon-circle svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .aca-over-1 .icon-list .list .content h5 {
+        font-size: 15px;
+    }
+
+    .aca-over-1 .icon-list .list .content p {
+        font-size: 13px;
+    }
+
+    .aca-over-2 .content h4.section-title {
+        font-size: 22px;
+    }
+
+    .aca-over-2 .row img.img-fluid {
+        width: 170px;
+        height: 170px;
+    }
+
+    .aca-over-2 .image .icon-circle {
+        width: 40px;
+        height: 40px;
+        right: 46px;
+    }
+
+    .aca-over-2 .image .icon-circle svg {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* ---------- Extra small phones (<=400px) / high zoom levels ---------- */
+@media (max-width: 400px) {
+    .aca-over-1 h4 {
+        font-size: 19px;
+    }
+
+    .aca-over-1 .row .label {
+        font-size: 13px;
+    }
+
+    .aca-over-2 .content h4.section-title {
+        font-size: 19px;
+    }
+
+    .aca-over-2 .content p.section-desc {
+        font-size: 14px;
+    }
+
+    .aca-over-2 .row img.img-fluid {
+        width: 286px;
+        height: 286px;
+    }
+
+    .aca-over-2 .image .icon-circle {
+        width: 34px;
+        height: 34px;
+        right: 34px;
+    }
+
+    .aca-over-2 .image .icon-circle svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media (max-width:482px){
+    .aca-over-2 .row:nth-of-type(even){
+        flex-direction: column-reverse;
+    }
+}
+
+.facilities-1 .box{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border-top: 2px solid ;
+    transition: 0.3s ease-in-out;
+}
+
+.facilities-1 .box:hover{
+    box-shadow: 0 0 10px;
+}
+
+.facilities-1 .box .image img.img-fluid{
+    border-radius: 20px;
+}
+
+.facilities-1 .box .content{
+    margin-top: 10px;
+}
+
+.facilities-1 .box .content .section-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.facilities-1 .container .row:nth-of-type(2){
+    margin-top: 14px;
+}
+
+/* ---------- Facilities cards: large desktop, a touch more room (>=1400px) ---------- */
+@media (min-width: 1400px) {
+    .facilities-1 .box {
+        padding: 24px;
+    }
+}
+
+/* ---------- Facilities cards: large tablets / small laptops (<=1199.98px) ---------- */
+@media (max-width: 1199.98px) {
+    .facilities-1 .box .content .section-title {
+        font-size: 26px;
+    }
+
+    .facilities-1 .box {
+        padding: 18px;
+    }
+}
+
+/* ---------- Facilities cards: tablets (<=991.98px) ---------- */
+@media (max-width: 991.98px) {
+    .facilities-1 .box .content .section-title {
+        font-size: 24px;
+    }
+
+    .facilities-1 .box .content p.section-desc {
+        font-size: 15px;
+    }
+
+    .facilities-1 .box {
+        padding: 16px;
+    }
+}
+
+/* ---------- Facilities cards: mobile / phones (<=767.98px) ----------
+   Cards go from 3-across (col-md-4) to full-width (col-12) and stack
+   vertically here, so give each card its own bottom spacing instead of
+   relying on row gutters. */
+@media (max-width: 767.98px) {
+    .facilities-1.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .facilities-1 .col-12.col-md-4.col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+    .facilities-1 .row:last-of-type .col-12.col-md-4.col-lg-4:last-child {
+        margin-bottom: 0;
+    }
+
+    .facilities-1 .container .row:nth-of-type(2) {
+        margin-top: 0;
+    }
+
+    .facilities-1 .box .content .section-title {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    .facilities-1 .box .content p.section-desc {
+        font-size: 14.5px;
+    }
+}
+
+/* ---------- Facilities cards: small phones (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+    .facilities-1 .box {
+        padding: 14px;
+        border-radius: 16px;
+    }
+
+    .facilities-1 .box .image img.img-fluid {
+        border-radius: 16px;
+    }
+
+    .facilities-1 .box .content .section-title {
+        font-size: 20px;
+    }
+
+    .facilities-1 .box .content p.section-desc {
+        font-size: 14px;
+    }
+
+    .facilities-1 .col-12.col-md-4.col-lg-4 {
+        margin-bottom: 16px;
+    }
+}
+
+/* ---------- Facilities cards: extra small phones / very high zoom (<=400px) ---------- */
+@media (max-width: 400px) {
+    .facilities-1 .box {
+        padding: 12px;
+    }
+
+    .facilities-1 .box .content .section-title {
+        font-size: 18px;
+    }
+
+    .facilities-1 .box .content p.section-desc {
+        font-size: 13.5px;
+    }
+
+    .facilities-1 .col-12.col-md-4.col-lg-4 {
+        margin-bottom: 14px;
+    }
+}
+
+.admission-1 p.section-desc {
+    margin-top: 14px;
+}
+
+.admission-1 h4{
+    font-weight: 700;
+    font-size: 40px;
+    color: #010f51;
+}
+
+.admission-1 .row .label{
+    color: #E4405F;
+}
+
+.admission-1 a.btn {
+    background-color: #E52290;
+    border-radius: 20px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.admission-1 img.img-fluid{
+    border-radius: 20px;
+
+}
+
+.admission-2-new .content{
+    margin-top: 20px;
+}
+
+.admission-2-new .content .icon-box .icon-circle{
+        background-color: #E0E440;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.admission-2-new .content .icon-box{
+    padding: 20px;
+    border-radius: 20px;
+    border-bottom: 2px solid #ddd;
+    transition: 0.3s ease-in-out;
+}
+
+.admission-2-new .content .icon-box h4.section-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.admission-2-new .content .icon-box:hover {
+    background-image: linear-gradient(90deg, #e5229054, transparent);
+    border-radius: 20px;
+}
+
+.admission-2-new .content .icon-box:hover .icon-circle{
+    transform: rotate(10deg);
+}
+
+.admission-3{
+    background-color: #010f51;
+}
+
+.admission-3 h2.section-title{
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.admission-3 .d-flex{
+    gap: 10px;
+}
+
+.admission-3 .d-flex a{
+    color: #E4405F;
+    text-decoration: none;
+}
+
+.admission-3 ul.icon-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.admission-3 li.list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+/* =====================================================
+   Admission Page — New Sections Responsive Fixes
+   (admission-1 stats block, admission-2-new icon cards,
+   admission-3 checklist). These sections were added after
+   the original responsive pass and need their own scaling
+   so they behave correctly from small phones up through
+   large desktops, and self-correct at non-100% zoom levels
+   since media queries key off effective CSS pixel width.
+   ===================================================== */
+
+/* ---------- Admission-1 / Admission-3: large tablets / small laptops (<=1199.98px) ---------- */
+@media (max-width: 1199.98px) {
+    .admission-1 h4 {
+        font-size: 34px;
+    }
+
+    .admission-2-new .content .icon-box h4.section-title {
+        font-size: 26px;
+    }
+
+    .admission-2-new .content .icon-box .icon-circle {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* ---------- Admission-1 / Admission-3: tablets (<=991.98px) ---------- */
+@media (max-width: 991.98px) {
+    .admission-1 h4 {
+        font-size: 30px;
+    }
+
+    .admission-2-new .content .icon-box h4.section-title {
+        font-size: 24px;
+    }
+
+    .admission-2-new .content .icon-box .icon-circle {
+        width: 56px;
+        height: 56px;
+    }
+}
+
+/* ---------- Admission-1 / Admission-3: mobile / phones (<=767.98px) ---------- */
+@media (max-width: 767.98px) {
+    .admission-1.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .admission-1 h4 {
+        font-size: 26px;
+    }
+
+    .admission-1 .row .label {
+        font-size: 14px;
+    }
+
+    .admission-1 .section{
+        margin-top: 16px;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .admission-1 a.btn {
+        margin-top: 8px;
+        display: inline-block;
+    }
+
+    .admission-1 .col-12.col-md-6.col-lg-6:first-child {
+        margin-bottom: 24px;
+    }
+
+    .admission-2-new.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .admission-2-new .content .icon-box {
+        padding: 16px;
+        margin-bottom: 8px;
+    }
+
+    .admission-2-new .content .icon-box h4.section-title {
+        font-size: 22px;
+    }
+
+    .admission-2-new .content .icon-box .icon-circle {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 10px;
+    }
+
+    .admission-3.py-5 {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+
+    .admission-3 .col-12.col-md-6.col-lg-6:first-child {
+        margin-bottom: 24px;
+    }
+
+    .admission-3 .d-flex {
+        flex-wrap: wrap;
+        word-break: break-word;
+    }
+
+    .admission-3 li.list {
+        font-size: 14px;
+        align-items: flex-start;
+    }
+
+    .admission-3 li.list svg {
+        flex-shrink: 0;
+        width: 22px;
+        height: 22px;
+    }
+}
+
+/* ---------- Admission-1 / Admission-3: small phones (<=575.98px) ---------- */
+@media (max-width: 575.98px) {
+    .admission-1 h4 {
+        font-size: 22px;
+    }
+
+    .admission-1 a.btn {
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 14px;
+    }
+
+    .admission-2-new .content .icon-box h4.section-title {
+        font-size: 20px;
+    }
+
+    .admission-2-new .content .icon-box .icon-circle {
+        width: 48px;
+        height: 48px;
+    }
+
+    .admission-2-new .content .icon-box .icon-circle svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .admission-3 li.list {
+        font-size: 13px;
+    }
+
+    .admission-3 li.list svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* ---------- Admission-1 / Admission-3: extra small phones / very high zoom (<=400px) ---------- */
+@media (max-width: 400px) {
+    .admission-1 h4 {
+        font-size: 19px;
+    }
+
+    .admission-1 .row .label {
+        font-size: 12px;
+    }
+
+    .admission-2-new .content .icon-box h4.section-title {
+        font-size: 18px;
+    }
+
+    .admission-2-new .content .icon-box .icon-circle {
+        width: 44px;
+        height: 44px;
+    }
+
+    .admission-2-new .content .icon-box .icon-circle svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .admission-3 li.list {
+        font-size: 12px;
+    }
 }
