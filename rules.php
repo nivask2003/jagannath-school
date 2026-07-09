@@ -62,7 +62,7 @@ href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
                         </div>
                         <div class="content">
                             <h4 class="section-title">Attendance Policy</h4>
-                            <p class="section-desc">Regular attendance and punctuality are essential for academic success and examinations.</p>
+                            <p class="section-desc">Regular attendance and punctuality support academic success and exam readiness.</p>
                         </div>
                         
                     </div>
@@ -76,7 +76,7 @@ href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
                         </div>
                         <div class="content">
                             <h4 class="section-title">Leave Policy</h4>
-                            <p class="section-desc">Leave requires prior parent approval or immediate school notification during emergencies.</p>
+                            <p class="section-desc">Leave requires parent approval or school notification during emergencies.</p>
                         </div>
                         
                     </div>

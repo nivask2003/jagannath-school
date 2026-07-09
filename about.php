@@ -35,7 +35,43 @@
                 <div class="col-12 col-md-8 col-lg-8" data-aos="fade-left">
                     <h2 class="section-title">Creating Bright Futures Together</h2>
                     <p class="section-desc">Jagannath Vidyalaya Matriculation Higher Secondary School, managed by Sri Venkateswar Educational Trust, is committed to providing quality education, strong values, and holistic student development. Located at Thandalam, Near Thiruporur, Off OMR, Chennai, the school offers experienced faculty, smart classrooms, modern facilities, and student-centered learning to nurture confident, responsible, and lifelong learners prepared for academic success and future challenges.</p>
-                    <a href="contact.php" class="btn">Contact Us </a>
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4" style="margin-bottom: 0 !important">
+                            <ul class="icon-list">
+                                <li class="list">
+                                    <div class="icon-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="m344-60-76-128-144-32 14-148-98-112 98-112-14-148 144-32 76-128 136 58 136-58 76 128 144 32-14 148 98 112-98 112 14 148-144 32-76 128-136-58-136 58Zm94-278 226-226-56-58-170 170-86-84-56 56 142 142Z"/></svg>
+                                    </div>
+                                    <p>Quality Education</p>
+                                    
+                                </li>
+                                <li class="list">
+                                    <div class="icon-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="m344-60-76-128-144-32 14-148-98-112 98-112-14-148 144-32 76-128 136 58 136-58 76 128 144 32-14 148 98 112-98 112 14 148-144 32-76 128-136-58-136 58Zm94-278 226-226-56-58-170 170-86-84-56 56 142 142Z"/></svg>
+                                    </div>
+                                    <p>Strong Values</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <ul class="icon-list">
+                                <li class="list">
+                                    <div class="icon-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="m344-60-76-128-144-32 14-148-98-112 98-112-14-148 144-32 76-128 136 58 136-58 76 128 144 32-14 148 98 112-98 112 14 148-144 32-76 128-136-58-136 58Zm94-278 226-226-56-58-170 170-86-84-56 56 142 142Z"/></svg>
+                                    </div>
+                                    <p>Modern Facilities</p>
+                                    
+                                </li>
+                                <li class="list">
+                                    <div class="icon-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="m344-60-76-128-144-32 14-148-98-112 98-112-14-148 144-32 76-128 136 58 136-58 76 128 144 32-14 148 98 112-98 112 14 148-144 32-76 128-136-58-136 58Zm94-278 226-226-56-58-170 170-86-84-56 56 142 142Z"/></svg>
+                                    </div>
+                                    <p>Holistic Development</p>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -89,7 +125,7 @@
                         <div class="icon-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#232060"><path d="M324-111.5Q251-143 197-197t-85.5-127Q80-397 80-480t31.5-156Q143-709 197-763t127-85.5Q397-880 480-880h40v331q18 11 29 28.5t11 40.5q0 33-23.5 56.5T480-400q-33 0-56.5-23.5T400-480q0-23 11-41t29-28v-86q-52 14-86 56.5T320-480q0 66 47 113t113 47q66 0 113-47t47-113q0-36-14.5-66.5T586-600l57-57q35 33 56 78.5t21 98.5q0 100-70 170t-170 70q-100 0-170-70t-70-170q0-90 57-156.5T440-717v-81q-119 15-199.5 105T160-480q0 134 93 227t227 93q134 0 227-93t93-227q0-69-27-129t-74-104l57-57q57 55 90.5 129.5T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80q-83 0-156-31.5Z"/></svg>
                         </div>
-                        <h4 class="section-title">School objectives</h4>
+                        <h4 class="section-title">Objectives</h4>
                         <p class="box-section">Jagannath Vidyalaya nurtures academic excellence, leadership, discipline, creativity, and values to develop confident, responsible, and future-ready students.</p>
                     </div>
                 </div>

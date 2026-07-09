@@ -839,6 +839,8 @@ footer .footer-main::before{
 
 footer .footer-main img.img-fluid {
     border-radius: 20px;
+    padding: 20px;
+    background-color: #fff;
 }
 
 footer .footer-main .footer-heading {
@@ -4195,4 +4197,24 @@ section.home-6.py-5 {
     .rules-1 .box .image img.img-fluid{
         transition-duration: 0.01ms !important;
     }
+}
+
+
+.about-1 ul.icon-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-1 ul.icon-list li.list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 22px;
+    /* font-size: 18px; */
+}
+
+.about-1 ul.icon-list li.list p{
+    font-size: 18px;
+    margin-bottom: 0 !important;
+    font-weight: 600;
 }

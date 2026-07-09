@@ -111,7 +111,7 @@ function template_footer(){
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-3 col-lg-3">
-                        <img src="Assets/Images/logo.webp" alt="" class="img-fluid">
+                        <img src="Assets/Images/footer-logo.png" alt="" class="img-fluid">
                         <section class="social-media mt-5">
                             <h4 class="footer-heading">Follow us on</h4>
                             <div class="social-icons">
