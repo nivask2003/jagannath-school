@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-12 col-md-8 col-lg-8" data-aos="fade-left">
                     <h2 class="section-title">Creating Bright Futures Together</h2>
-                    <p class="section-desc">Jagannath Vidyalaya Matriculation Higher Secondary School, managed by Sri Venkateswar Educational Trust, is committed to providing quality education, strong values, and holistic student development. Located at Thandalam, Near Thiruporur, Off OMR, Chennai, the school offers experienced faculty, smart classrooms, modern facilities, and student-centered learning to nurture confident, responsible, and lifelong learners prepared for academic success and future challenges.</p>
+                    <p class="section-desc">Jagannath Vidyalaya Matriculation Higher Secondary School, managed by Sri Venkateshwara educatuonal trust., is committed to providing quality education, strong values, and holistic student development. Located at Thandalam, Near Thiruporur, Off OMR, Chennai, the school offers experienced faculty, smart classrooms, modern facilities, and student-centered learning to nurture confident, responsible, and lifelong learners prepared for academic success and future challenges.</p>
                     <div class="row">
                         <div class="col-12 col-md-4 col-lg-4" style="margin-bottom: 0 !important">
                             <ul class="icon-list">
@@ -84,7 +84,7 @@
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-right">
                     <h4 class="section-title text-white">Empowering Future Leaders</h4>
 
-                    <p class="section-desc text-white">Sri Venkateswar Educational Trust is dedicated to providing quality
+                    <p class="section-desc text-white">Sri Venkateshwara educatuonal trust. is dedicated to providing quality
                         education through academic excellence, strong values, and holistic student development. It
                         nurtures confident, responsible, and future-ready learners in a supportive and inspiring
                         environment.</p>

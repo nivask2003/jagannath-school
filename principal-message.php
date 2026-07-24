@@ -30,7 +30,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4" data-aos="fade-right" data-aos-duration="1000">
-                    <img src="Assets/Images/unknown-profile.webp" alt="" class="img-fluid">
+                    <img src="Assets/Images/principal.webp" alt="" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-8 col-lg-8">
                     <div class="box">

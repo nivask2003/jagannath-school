@@ -115,7 +115,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#010f51"><path d="M607.5-372.5Q660-425 660-500t-52.5-127.5Q555-680 480-680t-127.5 52.5Q300-575 300-500t52.5 127.5Q405-320 480-320t127.5-52.5Zm-204-51Q372-455 372-500t31.5-76.5Q435-608 480-608t76.5 31.5Q588-545 588-500t-31.5 76.5Q525-392 480-392t-76.5-31.5ZM214-281.5Q94-363 40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200q-146 0-266-81.5Z"/></svg> 
                             </div>
                             <h4 class="section-title text-white">Vision</h4>
-                            <p class="section-desc text-white">To cultivate confident leaders who inspire positive change, embrace innovation, and create a lasting impact in their communities while contributing meaningfully to a better world.</p>
+                            <p class="section-desc text-white">To become a centre of educational excellence by nurturing confident, compassionate, and responsible learners with strong values, leadership skills, and a global outlook.</p>
                         </div>
                         <div class="image mt-4">
                             <img src="Assets/Images/vision.webp" alt="" class="img-fluid">
@@ -132,7 +132,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#010f51"><path d="M607.5-372.5Q660-425 660-500t-52.5-127.5Q555-680 480-680t-127.5 52.5Q300-575 300-500t52.5 127.5Q405-320 480-320t127.5-52.5Zm-204-51Q372-455 372-500t31.5-76.5Q435-608 480-608t76.5 31.5Q588-545 588-500t-31.5 76.5Q525-392 480-392t-76.5-31.5ZM214-281.5Q94-363 40-500q54-137 174-218.5T480-800q146 0 266 81.5T920-500q-54 137-174 218.5T480-200q-146 0-266-81.5Z"/></svg> 
                             </div>
                             <h4 class="section-title text-white">Mission</h4>
-                            <p class="section-desc text-white">To cultivate confident leaders who inspire positive change, embrace innovation, and create a lasting impact in their communities while contributing meaningfully to a better world.</p>
+                            <p class="section-desc text-white">Our mission is to provide quality, student-centred education that nurtures academic excellence, values, leadership, creativity, and confident, responsible lifelong learners.</p>
                         </div>
                         
                     </div>

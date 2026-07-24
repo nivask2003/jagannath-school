@@ -11,7 +11,7 @@ function template_header(){
                             <li class="list"><i class="bi bi-telephone-fill"></i><a href="tel:+919176885107">+91
                                     9176885107</a></li>
                             <li class="list"><i class="bi bi-envelope-fill"></i><a
-                                    href="mailto:jvmst459@gmail.com">jvmst459@gmail.com</a></li>
+                                    href="mailto:jvms2459@gmail.com">jvms2459@gmail.com</a></li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-3 col-lg-3" id="head-btn">
@@ -160,7 +160,7 @@ function template_footer(){
                             <h4 class="footer-heading">Get in touch</h4>
                             <ul class="contact">
                                 <li><i class="bi bi-envelope-fill"></i><a
-                                        href="mailto:jvmst459@gmail.com">jvmst459@gmail.com</a></li>
+                                        href="mailto:jvms2459@gmail.com">jvms2459@gmail.com</a></li>
                                 <li><i class="bi bi-telephone-fill"></i><a href="tel:+919176885107">+91 9176885107</a>
                                 </li>
                             </ul>
