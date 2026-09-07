@@ -52,7 +52,8 @@
                                 </svg></div>
                             <div class="icon-content">
                                 <h4>Email</h4>
-                                <p><a href="mailto:jvmst459@gmail.com">jvmst459@gmail.com</a></p>
+                                <p><a href="mailto:admission@jvmschool2.in ">admission@jvmschool2.in </a></p>
+                                <p><a href="mailto:principal@jvmschool2.in">principal@jvmschool2.in</a></p>
                             </div>
                         </div>
                     </div>
