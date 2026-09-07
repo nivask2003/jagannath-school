@@ -180,7 +180,9 @@ function template_footer(){
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; Copyrights 2026 <br><a href="index.php">Jagannath Vidyalaya Matriculation Higher Secondary School,</a><br>All rights reserved.</p>
+            <p>&copy; Copyrights 2026 <br><a href="index.php">Jagannath Vidyalaya Matriculation Higher Secondary School. </a>All rights reserved. <a href="https://www.eduweb.co.in/" target="_blank" style="color: #fff; text-decoration:none;"> Designed by
+            <img src="Assets/Images/eduweb.jpg" alt="" width="55px" style="border-radius: 4px;">
+            </a></p>
         </div>
 
     </footer>
