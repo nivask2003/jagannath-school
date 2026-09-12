@@ -28,6 +28,8 @@
     </div>
 
 
+<iframe aria-label='ADMISSION REGISTRATION FORM' frameborder="0" style="height:2800px;width:99%;border:none;" src='https://forms.zohopublic.in/jagannathvidyalayamatriculati1/form/ADMISSIONREGISTRATIONFORM/formperma/EvuC6vQbbRzUxWMXeb1OCq1P4Btml58yVUPu2ROSkMw' >
+</iframe>
 
 
 

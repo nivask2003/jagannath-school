@@ -26,6 +26,8 @@
     <div class="page-banner" id="admission">
         <h1 class="page-title">Career Form</h1>
     </div>
+<iframe aria-label='CAREER FORM' frameborder="0" style="height:2500px;width:99%;border:none;" src='https://forms.zohopublic.in/jagannathvidyalayamatriculati1/form/CAREERFORM/formperma/8qLP1kjpfxKgodhql-zsEe-6MoZsDmm8apN3VLrSZ3w' >
+</iframe>
 
 
 
